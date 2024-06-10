@@ -1,4 +1,4 @@
-export const types = ["Interview", "React", "React Hook", "JavaScript", "AWS"];
+export const types = ["Interview", "React", "React Hook", "JavaScript", "Blockchain"];
 
 export const interview = [
     {
@@ -17,7 +17,7 @@ I gave importance to the code optimization, responsiveness and the render speed.
 The most exciting thing was that I used some of react hook functions in this project such as useMemo, useCallback so that I can reduce unnecessary rendering into components.
 As a result, my customers gave me good feedbacks and reviews.
         `
-    }
+    },
     {
         title: "Tell me about yourself",
         type: 0,
