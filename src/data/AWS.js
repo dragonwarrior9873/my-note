@@ -115,7 +115,7 @@ With a strong foundation in computer science, extensive experience in full-stack
     {
         title: "What makes me interested about this job?",
         type: 4,
-        content: `I am extremely interested in this opportunity to work on a Universal Settlement Layer for Blockchain using Zero-Knowledge proofs. Here's what excites me about this role:
+        content: `I am extremely interested in this opportunity to work on a Universal Settlement Layer for Blockchain using Zero-Knowledge proofs. Here's what excites me about this role:s
 Innovative Use of Zero-Knowledge Proofs: Zero-Knowledge proofs are a groundbreaking cryptographic technique that allows for secure and private transactions without revealing sensitive information. The prospect of applying this technology to build a Universal Settlement Layer is incredibly intriguing to me, as it presents an opportunity to work on the forefront of blockchain innovation and privacy-preserving solutions.
 Solving Real-World Challenges: The idea of creating a Universal Settlement Layer addresses a significant challenge in the blockchain ecosystem – the need for interoperability and seamless value transfer across different blockchain networks. This aligns with my desire to work on projects that have a tangible impact and solve real-world problems in the industry.
 Expanding My Blockchain Expertise: With over 8 years of experience in blockchain technologies like Ethereum, Binance Smart Chain, and Cardano, this role would allow me to further deepen my knowledge and skills in this rapidly evolving field. Working on a cutting-edge project like this would expose me to new techniques, architectures, and best practices, fostering my professional growth as a blockchain developer.
