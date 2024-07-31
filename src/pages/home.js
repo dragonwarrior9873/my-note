@@ -10,6 +10,7 @@ import { types, interview } from "../data/interview";
 import { react } from "../data/react";
 import { javascript } from "../data/javascript";
 import { Blockchain } from "../data/AWS";
+import { Cosmos_Go } from "../data/Cosmos_Go";
 import { hook } from "../data/hook";
 import "./style.css";
 
@@ -93,7 +94,7 @@ const Home = () => {
                             />
                         </div>
                         <Accordion className="mt-1 preline">
-                            {[...interview, ...react, ...hook, ...javascript, ...Blockchain].sort((a, b) => a < b).filter(d => {
+                            {[...interview, ...react, ...hook, ...javascript, ...Blockchain, ...Cosmos_Go].sort((a, b) => a < b).filter(d => {
                                 const keywords = keyword.split(" ");
                                 if (withContent) {
                                     return keywords.every((key) => {
