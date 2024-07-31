@@ -1,4 +1,4 @@
-export const Cosmos_Go = [
+export const Cosmos = [
     {
         title: "What are React Hooks?",
         type: 5,
