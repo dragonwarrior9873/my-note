@@ -19,49 +19,60 @@ As a result, my customers gave me good feedbacks and reviews.
         `
     },
     {
-        title: "Tell me about yourself",
+        title: "What was your last project and what you have done on it? or Briefly summarize your recent contributions to either a web application or API service.",
+        type: 0,
+        content: `My greatest accomplishment was developing Project ISLA, a healthcare system that made a significant impact. 
+        I created a versatile search tool that helps people find hospital information and analytics for over 3,000 hospitals nationwide.
+         Using React, Django, and Elasticsearch, I built a user-friendly platform that includes features like hospital mapping and detailed statistics. 
+         I'm particularly proud of optimizing the site's performance using advanced React techniques, which resulted in faster loading times and a smoother user experience. 
+         The project was a huge success, earning great feedback from customers and potentially saving the healthcare system up to 500,000 dollars by improving efficiency and access to information.
+         This experience taught me the value of combining technical skills with real-world problem-solving to create meaningful solutions in healthcare`
+    },
+    {
+        title: "Tell me about yourself or Tell me about your work experience",
         type: 0,
         content: `First of all, let me tell you about myself.
         I am a front-end JavaScript developer with 10 years of experience.       
        I specialize in Web and Decentralized applications, and in addition to front-end development, I am interested in Web Design, back-end development and GraphQL.       
         My great performances are in TypeScript, JavaScript and its libraries such as React, Redux, Web3.js, etc.       
        I also have strong knowledge in Data Structure & Algorithm, which always helps me build robust applications.
-       My software developer career was started when I was a university student at the California State University – Los Angeles.
-       When I was a sophomore, I really loved maths, and later programming so I was selected as one of the ACM ICPC contest candidates and participated in a training team.
-        You know, ICPC stands for International Collegiate Programming Contest, which is held every year from the regional contests to the world final.
-        In the team, I learned and practised modern data structrues and algorithmic patterns and finally won the silver medal 2 times on ICPC North America regional contests in 2011 and 2012. It means that our team was in the first 30% of overall ranking.
+       My software developer career was started when I was a university student at the Hong Kong College of Technology.
+       When I was a sophomore, I really loved maths, and later programming so I was selected as one of the Programing contest candidates and participated in a training team.
+       In the team, I learned and practised modern data structrues and algorithmic patterns.
        That was my meaningful start in the software developers’ world.
-       Later my skills expanded amazingly, especially in React. I have built over 30 websites using this stack in 2018.
-       Regarding the knowledge of React, all my development takes place on the front-end, I have switched to writing cascading styles in CSSinJS and also migrated my know-how to the React context. In the back-end I use Node.js and Serverless technology. One of my recent project is hospital research system.
-       I think those are my proudest achievements in my life as a software developer.
-       However, on Jan 2020, as if it was a challenge against my life, I had to quit the company due to the pandemic.
-       At that time, I preferred working from home, but the company asked me to commute to work.
-       
-       After that, I started finding a remote job, and succeeded joining loanDepot company in Lake Forest, CA.
-       I was not only frontend developer, but also an analyst for data visualization and analysis as a senior full stack engineer.
-       And it was crucial for me to see that someone was keen to use. In that case, I didn’t even care that I had been programming in these languages for ten years or even more.
-       Because the successful result doesn't come only from the experience.
-       So, I worked as agile as possible and maintained positive and happy client relationships with 20 corporate customers.
-       You know it's blockchain winter now and the company can't afford to provide me more works. That's why they asked me to find a new work.
-       It made me move into a new freelancers’ world. So now I am working as a freelancer for about 3 months.
-       Actually, I am free now and can start a new work immediately.
+       Later my skills expanded amazingly, especially in React. I built over 30 websites using this stack in 2018.
+       Actually, I am free now and I can start a new work immediately.
        That's all.`
+    },
+    {
+        title: "What are you looking for in a new role?",
+        type: 0,
+        content: `I'm looking for a role that pushes me to grow as a React developer. 
+        I want to work on cutting-edge projects that make a real difference. 
+        Being part of a collaborative team where we can bounce ideas off each other is important to me. 
+        I'm excited about opportunities to mentor others and possibly step into leadership down the line. 
+        Ultimately, I want a position where I can bring my A-game every day and help drive the company forward.`
     },
     {
         title: "Why are you interested in this job?",
         type: 0,
-        content: `Since pandemic, I would like to work for the health care. So I've worked some projects such as hospital infrastructure, hospital research system and some more.
-        Luckily, finding a job, I found out that your company is working as a primary mission to help people live healthier lives! Perfect same to my goal.
-        And your company will host its annual Investor Conference with analysts and institutional investors in New York City tomorrow.
-        In conjunction with the Investor Conference, an updated view of financial performance for 2022 and the initial outlook for 2023 was released just a few minutes ago.
-        This is a job I really would like to work as a software engineer.
-        And it's fun to work in a company where people truly believe in what they're doing!`
+        content: `Franklly Speaking, before applying for this role with your company, I spent time reading the job descriptions and the person specifications.
+        I wanted to make sure I was both properly qualified for the roles, and that I also had the appropriate experiences and skills to help drive the companys forward.
+        I sincerly want to work for this role because it's just the role that I am extremely passionate about and also one I get immense job satisfaction from, especially when I get to see first-hand
+        the positive contribution my work makes to the organization I am working for.
+        If I become a member of your company, then I will not only work hard to deliver consistent positive results, but I will also use my developing, researching, analytical and technical
+        skills to help the company continually thrive and develop.
+        `
     },
     {
-        title: "What motivates you to work at this company?",
+        title: "What motivates you to work at this company? or Why do you want to work for our company?",
         type: 0,
-        content: `I'm really driven by results. I like it when I have a concrete goal to meet and actual roadmap to figure out a strong strategy for accomplishing it.
-        At my last job, our yearly goals were very aggressive, but I worked with my manager and the rest of my team to figure out a month-by-month strategy for meeting the year-end numbers. It was a real thrill to accomplish that.`
+        content: `For me the company I work for is very important, I believe that, to be able to perform your duties and responsabilities as a member, you need the supoort of your employer,
+        and you also need to work with like-minded people who are all working towards a common goal.
+        During my research into your organization , it soon became apparent that you are not only a leader within the industry, buy you also continually look for ways to grow and develop.
+        You also cleary hire some of the best people available, and this means I will be working with other professionals who all genuinely care about the work they produce.
+        I am someone who is ambitious, I don't like to sit back and just do the bare minimum and it u hire me, I feel confident you will be impressed with my work values, ethics and high standards.
+        `
     },
     {
         title: "What motivates you to apply for this particular role? ",
@@ -70,29 +81,199 @@ As a result, my customers gave me good feedbacks and reviews.
         I am happy that my creations come into direct contact with people, and I feel the greatest pride when I receive the best feedback from them. I am also motivated by working as part of a team to complete tasks and projects.
         I gain a great sense of job satisfaction when I know I have contributed to a team's goals or objectives.`
     },
-
     {
-        title: "Why are you looking for a job? ",
+        title: "what are your strengths?",
         type: 0,
-        content: `I have worked at my last company for over 2 years and have gained a great amount of experience in project management. I’ve learned how to compete and succeed in such fast-moving and high-achieving environment. So I love my work and loanDepot.
-        Due to the drop in the price of the blockchain, the company's budget was so much in the red, and the situation continued for several months that it was difficult to sustain.
-        Team members, including myself, tried to recover it, but the results did not change much.
-        I love everything about the company and really enjoyed working there. But reality made me look for new opportunities to achieve my goals.
-        I love collaborating with my teammates, and it must be said that it is in my nature to immerse myself in work and find a new love for work.
-        Furthermore, this position sounds like an exciting opportunity with a terrific company and an ideal match for my qualifications`
+        content: `My greatest strength is my ability to adapt and learn quickly in the ever-changing world of web development. 
+        I have a knack for understanding complex systems and breaking them down into manageable parts. 
+        I'm excellent at collaborating with others, whether it's brainstorming ideas or solving tricky problems together. 
+        My attention to detail ensures that I deliver high-quality work, from clean code to smooth user experiences. 
+        I have a strong drive for continuous improvement, always looking for ways to enhance my skills and stay ahead of industry trends.
+        And I think these can be counted my greatest strengths if you ask me.`
     },
     {
-        title: "SSN, DL, Linkedin",
+        title: "what are your weaknesses?",
         type: 0,
-        content: `DL front: https://drive.google.com/file/d/19dV3fFuSlf5pYyQiafSKLxIK-QDijHvM/view?usp=share_link,
-        DL back: https://drive.google.com/file/d/1BKM91nW3dNNGI2ZeWcwXg2NefYeeQJ1R/view?usp=share_link,
-        SSN: https://drive.google.com/file/d/1t4Ezy7EaaWTElRrANWno9NO5GNcVxhmY/view?usp=share_link,
-        LinkedIn: https://www.linkedin.com/in/john-michael-b57a18243/`
+        content: `My greatest weakness is that I sometimes spend too much time perfecting details. 
+        I want everything to be just right, which can slow me down. 
+        However, I've been working on balancing quality with efficiency by setting clear priorities.
+        I've also started using time management tools to stay on track. This way, I can still deliver high-quality work without getting bogged down in the details.`
+    },
+    {
+        title: "What are you career goals over the next 3-5 years?",
+        type: 0,
+        content: `In the next 3-5 years, I want to grow in my career and take on more responsibilities. 
+        I hope to learn new skills that will help me become better at my job. I aim to work on exciting projects that challenge me and allow me to be creative. 
+        Building strong relationships with my colleagues and mentors is also important to me.
+         I would like to move into a leadership role where I can help guide and support others or maybe like mentoring junior developers. 
+         Overall, 
+        I want to make a positive impact in my field and continue to develop both personally and professionally. 
+        I’m excited about the future and the opportunities it holds.`
+    },
+    {
+        title: "What did you like most about your last position?",
+        type: 0,
+        content: `What I liked most about my last job was the team I worked with. We had a great group of people who supported each other and worked well together. I also enjoyed the projects I was involved in because they were interesting and allowed me to be creative. I appreciated the chance to learn new skills and grow in my role. The company had a positive atmosphere, which made coming to work enjoyable. 
+        I felt valued for my contributions, and that motivated me to do my best. Overall, it was a rewarding experience that I will always remember fondly`
+    },
+    {
+        title: "WHAT DID YOU LIKE LEAST ABOUT YOUR LAST POSITION?",
+        type: 0,
+        content: `"In my last job, I really enjoyed my work and my team, but one thing I liked least was the lack of new challenges. I found that some tasks were quite repetitive, which made it hard to stay excited sometimes. I believe that learning and growing is really important for me. So, I was hoping for more opportunities to take on different projects. I think having variety in my work helps me stay motivated and engaged. Overall, 
+        I’m looking for a position where I can learn new skills and face fresh challenges. I’m excited about the possibility of doing that in this new role!"`
+    },
+    {
+        title: "Can u tell me about the difficult work situation and how you overcame it? or Tell me a time when u worked as part of a team to solve a complex task?",
+        type: 0,
+        content: ` Situation : I was part of a multi-agency project building a software application for an important client. Towards the end of the project, We encountered a number of bugs and problems with 
+        the software application, and time was against us to get everything fixed before the offical handover date.
+        Task : I felt it was my responsibility to come up with a solution to get the issues fixed. I stayed behind late that evening collaborating with other experienced team
+        members to come up with a plan that would ensure the bugs were not only full rectified, but that a support system was in place to respond to any future issues if they were to arise, post handover.
+        Action : We started off by creating a list of all bugs and issues. We then attempted to recreate each bug so that we could assess what was causing the issue.
+        We managed to recreate all of the bugs and it was then my task to create a timescale for rectifying and testing each issue.
+        Once we had a plan in place, we could then allocate tasks to team members based on their area of technical competence the follwing morning.
+        Result : By creating a plan of action, and by working closely together as a team, we were able to tap into the combined team expertise and competence to not only 
+        provide a time-sensitive solution to the problem, but to also implement a support mechanism for our client.`
+    },
+    {
+        title: "How do you respond to stress and change?",
+        type: 0,
+        content: `I think as a software developer, you have to realize that stress and pressure is all part of the role. And in actual fact, I feel I tend to perform better when I am up against it
+        and there is a definitive timeframe to work towards.
+        I manage stress in three ways. First and foremost, I ensure I plan my work well in advance, so I know what I need to do ,and by waht deadline.
+        By having a plan in place, it means I work more efficiently and I can decide which tasks need my attention first.
+        The second way I handle stress and pressure, is to make sure I work closely with other memebers of the team and that communication is a constant theme throughout the day.
+        Finally I handle stress and pressure by making sure I dedicate some time each week to keeping up-to-date with developments from within the industry.
+        This gives me the confidence in my role as a software developer and it also eliminates any unwelcome surprises when updates do come out or changes within the industry are released.`
+    },
+    {
+        title: "How do u handle conflict at work? or How would you deal with a memeber of your team who disaggreed with the work you carried out your role?",
+        type: 0,
+        content: `I have a lot of experience as a Software develoer and I feel the work I produce is to a very high standard.
+        Having said that I am also aware that when I do work as part of  a team. it's important to listen to other people as they may have valid contributions to make.
+        On that basis, I would certainly be open to listening to why they felt the work I was carrying out could be altered or improved.
+        At the end of the day, we are all working for the same organization, and if it means changing the way I do things for the benefit of the team goal. I will certainly do that.`
+    },
+    {
+        title: "What is your greatest accomplishment?",
+        type: 0,
+        content: `My greatest accomplishment was developing Project ISLA, a healthcare system that made a significant impact. 
+        I created a versatile search tool that helps people find hospital information and analytics for over 3,000 hospitals nationwide. 
+        Using React, Django, and Elasticsearch, I built a user-friendly platform that includes features like hospital mapping and detailed statistics. 
+        I'm particularly proud of optimizing the site's performance using advanced React techniques, which resulted in faster loading times and a smoother user experience. 
+        The project was a huge success, earning great feedback from customers and potentially saving the healthcare system up to 500,000 dollars by improving efficiency and access to information.
+         This experience taught me the value of combining technical skills with real-world problem-solving to create meaningful solutions in healthcare`
+    },
+    {
+        title: "DO YOU CONSIDER YOURSELF SUCCESSFUL?",
+        type: 0,
+        content: `Yes, I do consider myself successful. I believe success is about setting goals and working hard to achieve them. In my career, 
+        I've been able to accomplish many things I'm proud of. I've learned new skills, taken on challenging projects, and grown as a professional. 
+        Success for me also means having good relationships with my colleagues and making a positive impact in my work. 
+        I know there's always room to grow and improve, which keeps me motivated. 
+        Overall, I feel successful because I'm constantly learning and moving forward in my career and personal life.`
+    },
+    {
+        title: "Why are you good fit for this position? or How do your skills align with this role? or why should we hire you?",
+        type: 0,
+        content: `I believe I'm a great fit for this React frontend position because of my deep expertise and passion for React development.
+         I've worked on complex projects where I've implemented advanced React concepts like hooks, context API, and custom optimizations.
+          My experience with state management tools like Redux and performance optimization techniques ensures I can build efficient and scalable applications. 
+          I stay up-to-date with the latest React trends and best practices, which allows me to bring innovative solutions to the table. 
+          I'm also skilled in collaborating with backend teams to create seamless integrations. 
+        I'm excited about the opportunity to contribute my React knowledge and problem-solving skills to your team. Overall, my technical proficiency, coupled with my enthusiasm for creating top-notch user experiences, makes me an ideal candidate for this role.`
+    },
+    {
+        title: "How do u define success?",
+        type: 0,
+        content: `I define success as reaching my goals and doing my best in everything I take on. 
+        For me, it’s about making progress and learning new things along the way. Success also means having good relationships with my colleagues and working well as a team. 
+        I feel successful when I can help others and make a positive impact in my job. Meeting deadlines and delivering quality work that people appreciate is important to me, too. 
+        I believe that success is not just about personal achievements but also about contributing to a bigger picture.
+         Overall, success is about growth, happiness, and making a difference.`
+    },
+    {
+        title: "What is your salary expectation?",
+        type: 0,
+        content: `I have conducted some research prior to attending the interview on what I feel would be a fair salary for this position.
+        The average salary for a software engineer in this industry is $90 000 to $110, 000.
+        Whilst I do feel I am worth the higher salary brand, I understand you don't know me, and I need to prove to you my worth.
+        On the basis, I would feel comfortable with a salary of $102, 000 and I feel you will see a positive return on your investiment at this level if you hire me.`
+    },
+    {
+        title: "What are you passionate about?",
+        type: 0,
+        content: `I am passionate about creating great user experiences through technology. I love building websites and applications that are not only functional 
+        but also enjoyable to use. Learning new programming languages and tools excites me because it helps me improve my skills. I also enjoy solving problems and
+         finding creative solutions to challenges. 
+        I believe that technology can make a positive impact on people's lives, and I want to be part of that. 
+        Overall, my passion lies in using my skills to make the digital world better for everyone.`
+    },
+
+    {
+        title: "How do you work under pressure?",
+        type: 0,
+        content: `I handle pressure by staying calm and focused. When things get busy, I take a moment to prioritize my tasks and figure out what needs to be done first. I find it helpful to break big projects into smaller steps, so they feel more manageable. I also make sure to communicate with my team, so we can support each other. Taking short breaks helps me recharge and stay productive.
+         I believe that pressure can actually help me perform better and think more creatively. Overall, I see working under pressure as an opportunity to grow and show what I can do.`
+    },
+    {
+        title: "What is your dream job?",
+        type: 0,
+        content: `My dream job is one where I can push the boundaries of what's possible with React.
+         I'd love to work on innovative projects that challenge me to use advanced React concepts and cutting-edge technologies. Ideally, I'd be part of a team that values continuous learning and encourages sharing knowledge.
+          I dream of a role where I can contribute to open-source projects and help shape the future of frontend development. 
+          Working in an environment that promotes work-life balance and supports professional growth is also important to me. 
+          I'd be thrilled to have opportunities to mentor junior developers and help them grow in their careers. 
+        Ultimately, my dream job is one where I can make a significant impact through my React expertise while constantly evolving as a developer.`
+    },
+    {
+        title: "Tell me about a joke, humor.",
+        type: 0,
+        content: `John had been undergoing tests for a serious health concern for several weeks. Finally it was the day for him to receive his test results.
+
+        So he was sitting in his doctor’s office and he said, “Doc, I really need to know my test results! Not knowing is driving me crazy.“
+        His doctor reviewed at his notes again and then said, “Well John, there’s some good news and some bad news I’m afraid. Which one do you want first?”
+        
+        To which John replied, “I think I’d prefer the good news first. Yeah Doc, let me have the good news first!”
+        
+        “Well,” said the doctor, “I hear there are some amazing deals on cremations this week.“`
+    },
+    {
+        title: "DO YOU HAVE ANY QUESTIONS?",
+        type: 0,
+            content: `-	What is the job description?
+                -	How quickly are you looking to fill the position?
+                -	Why have other candidates been passed up?
+                -	What are the most important skills for the job?
+                -	Do you have any concerns about my candidacy?
+                -	How many people are on the team I’d be part of?
+                -	Are you the only recruiter working for this company?`
+    },
+    {
+        title: "ARE YOU FEELING COMFORTABLE FOR WORKING WITH A BIG TEAM?",
+        type: 0,
+        content: `Yes, I feel very comfortable working with a big team.
+         I enjoy collaborating with others and believe that teamwork leads to better results. 
+         In my past projects, I've worked closely with designers, backend developers, and other frontend developers. 
+         I find that sharing ideas and feedback helps us create more innovative solutions.
+          I’m good at communicating and making sure everyone is on the same page. 
+          I also appreciate the diverse perspectives that a big team brings. 
+          Overall, I thrive in a team environment and look forward to contributing my React skills to a larger group.`
+    },
+    {
+        title: "What motivates you?",
+        type: 0,
+        content: `What really gets me fired up is solving complex problems with elegant code.
+        I love the feeling of cracking a tough challenge and seeing a smooth, user-friendly interface come to life. 
+        Working with a team of talented developers and learning new things every day keeps me on my toes. 
+        I'm also motivated by the impact our work has on users - knowing that we're making their lives easier or more enjoyable. 
+        Ultimately, the constant evolution in tech, especially in React, drives me to keep pushing my skills to the next level.`
     },
     {
         title: "What do you feel about the Los Angeles?",
         type: 0,
-        content: `It’s amazing how many cultures can call Los Angeles home. As I drive through the city I can’t help but see signs the numerous areas of LA that make it so special; Chinatown, Silver Lake, The Arts District.
+        content: `It’s amazing how many cultures can call Los Angeles home. As I drive through the city I can’t help but see signs 
+        the numerous areas of LA that make it so special; Chinatown, Silver Lake, The Arts District.
         Here brings people of all colors, cultures, and creeds together like nowhere else!
         People are so nice and the weather is just perfect all year round - always-sunny weather. I would like to live here for the rest of my life.`
     },
@@ -158,9 +339,11 @@ As a result, my customers gave me good feedbacks and reviews.
     {
         title: "Give me an example of how you have worked on teams. What role did you play?",
         type: 0,
-        content: `In my last job, I was frequently required to interact with many different groups in the company like finance, accounting, sales, customer service, and more. I’ve also worked on projects with five other colleagues in my own group.
+        content: `In my last job, I was frequently required to interact with many different groups in the company like finance, accounting, sales, customer service, and more. 
+        I’ve also worked on projects with five other colleagues in my own group.
 
-        In those cases, I played the role of a specialist because I’m the only team member who is familiar with AWS and full stack development. So I provided expert insight into that area, and they handled the other areas.
+        In those cases, I played the role of a specialist because I’m the only team member who is familiar with AWS and full stack development. 
+        So I provided expert insight into that area, and they handled the other areas.
         
         My understanding, based on reading the job description for this position, is that you need that same skill set in your group right now. Is that correct? And can you talk about what the scope of the project is.`
     },
@@ -179,18 +362,6 @@ As a result, my customers gave me good feedbacks and reviews.
         They were recruiting many engineers and I found that allowing customers to schedule calls directly on their support team's calendar improved 3 times as many people per day compared to direct phone support.
         At that time I have developed those platforms with my team and gave good feedbacks from the customers.
         It was a great place to work too.`
-    },
-    {
-        title: "Tell me about a joke, humor.",
-        type: 0,
-        content: `John had been undergoing tests for a serious health concern for several weeks. Finally it was the day for him to receive his test results.
-
-        So he was sitting in his doctor’s office and he said, “Doc, I really need to know my test results! Not knowing is driving me crazy.“
-        His doctor reviewed at his notes again and then said, “Well John, there’s some good news and some bad news I’m afraid. Which one do you want first?”
-        
-        To which John replied, “I think I’d prefer the good news first. Yeah Doc, let me have the good news first!”
-        
-        “Well,” said the doctor, “I hear there are some amazing deals on cremations this week.“`
     },
     {
         title: "What did you learn from the freelancing?",
@@ -218,15 +389,6 @@ As a result, my customers gave me good feedbacks and reviews.
         2. Problem-solving skills
         3. Confidence
         4. Results-driven`
-    },
-    {
-        title: "what are your strengths and weakness?",
-        type: 0,
-        content: `I’ve never been one to give up, even on my personal life, and that personality trait has definitely transpired into my career. When I’m involved in a project, I like to feel like I actually contributed to it in a significant way and that’s what feeds my determination and focus.
-        To state my strength and weakness can be a little confusing because both of the two concepts are same for me. My quality of being self-motivated. I can work hard and consistently to achieve a goal if that helps me in growing and learning. I can motivate myself to do a task even when there are multiple obstacles and I can complete it.
-        However, my weakness is being over self-motivated because in that process I lose myself and get too goal oriented. If it is a team task then my self-goals become a burden for them and as a result, I come across clashes and group breakdowns sometimes.
-        I have been working on this for the last few months where I set a limit for myself and for the team and try not to affect my goals and objectives becomes a pressure for the others.
-        In a word, both my strength and weakness arise from the same quality.`
     },
     {
         title: "What is your mistake you made?",
@@ -259,16 +421,7 @@ As a result, my customers gave me good feedbacks and reviews.
         And when I was working as a team leader, I used to let the members do the same project in cooperation rather than different projects in separation.
        It was good to bring members closer to each other and more motivational to pursue one goal.`
     },
-    {
-        title: "What are you career goals over the next 3-5 years?",
-        type: 0,
-        content: `I hope to work as a senior software engineer for a company such as yours—one with a mission based on excellent communicating skills and technologies. Working as a senior software engineer for a company I believe in will prepare me to take on expanded team leadership responsibilities in the future, as those become available.
-        To pursue those goals, I have set four steps.
-        - Increase my expertise and training. I am trying to prepare myself as a competent senior engineer who owns frontend technology and further possesses clouding and backend technology.
-        - Increase my income. Trying to balance life and business and increase income for a better future life. I will increase my income to over $12,000 per month on average.
-        - Improve relationships with team members. I try to possess leadership skills in the process of cooperation with different team members.
-        - Have a new experience. As an important core engineer of the technical team, I will have more experience in interpersonal relationships and in the technology stack.`
-    },
+
     {
         title: "Why don't you speak English fluently?",
         type: 0,
@@ -278,22 +431,6 @@ As a result, my customers gave me good feedbacks and reviews.
         title: "What is your personality?",
         type: 0,
         content: `Team player, confident, Ambitious and friendly are three words I'd pick to describe myself.`
-    },
-    {
-        title: "Briefly summarize your recent contributions to either a web application or API service.",
-        type: 0,
-        content: `https://projectisla.co/ is my recent project.
-        This site uses versatile search tools to explore our database of hospital information and hospital analytics.  It creates a list or a map of hospitals that match the interests of customers near their location. 
-        This provides data, statistics, and analytics about more than 3,000 hospitals nationwide. 
-        Elasticsearch was used as a search engine for data processing.
-        I used Django python framework for the backend and React for the frontend.
-        Most of what I was responsible for in this project was frontend, REST api and admin dashboard.
-        As for a development on my side, I have used React, material UI, Tailwind CSS, Axios for the REST api, react-saga for redux.
-        This site consists of a landing page, a research component, a category page for displaying the hospital list, and a reservation page.
-        I gave importance to the code optimization, responsiveness and the render speed.
-        The most exciting thing was that I used some of react hook functions in this project such as useMemo, useCallback so that I can reduce unnecessary rendering into components.
-        As a result, my customers gave me good feedbacks and reviews.
-        Finally, I deploy this on the AWS EC2 after domain purchase.`
     },
     {
         title: "Do you relocate?",
@@ -331,7 +468,7 @@ As a result, my customers gave me good feedbacks and reviews.
         This pain is enough for me alone, and I don't want many more people in the world to suffer this kind of sadness.
         Luckily, finding a job, I found out that your company is working as a primary mission to help people live healthier lives! Perfect same to my goal.
         Your company is looking for a frontend developer who is both strong in interpersonal skills and tech skills in medical services. I believe my experience aligns with your company’s requirements and makes me a great fit.
-        I'm an effective developer who is skilled in modern frontend technologies especially React, having an eye on design. I'm also fluent in several relevant programming, including backend and blockchain technologies. I'd love to bring my diverse skill set to your company.`                                                                      
+        I'm an effective developer who is skilled in modern frontend technologies especially React, having an eye on design. I'm also fluent in several relevant programming, including backend and blockchain technologies. I'd love to bring my diverse skill set to your company.`
     },
     {
         title: "What additional skills and experiences do you think will help you in this role?",

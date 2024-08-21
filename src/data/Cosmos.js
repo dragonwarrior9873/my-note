@@ -1,14 +1,19 @@
 export const Cosmos = [
     {
-        title: "What are React Hooks?",
+        title: "What is the Cosmos SDK?",
         type: 5,
-        content: `Hooks are a new addition in React 16.8. They let I use state and other React features without writing a class. With Hooks, I can extract stateful logic from a component so it can be tested independently and reused. Hooks allow I to reuse stateful logic without changing my component hierarchy. This makes it easy to share Hooks among many components or with the community.`
+        content: `The Cosmos SDK is an open-source toolkit for building multi-asset public Proof-of-Stake (PoS) blockchains, like the Cosmos Hub, as well as permissioned Proof-of-Authority (PoA) blockchains. Blockchains built with the Cosmos SDK are generally referred to as application-specific blockchains.
+
+The goal of the Cosmos SDK is to allow developers to easily create custom blockchains from scratch that can natively interoperate with other blockchains. We further this modular approach by allowing developers to plug and play with different consensus engines this can range from the CometBFT or Rollkit.
+
+SDK-based blockchains have the choice to use the predefined modules or to build their own modules. What this means is that developers can build a blockchain that is tailored to their specific use case, without having to worry about the low-level details of building a blockchain from scratch. Predefined modules include staking, governance, and token issuance, among others.
+
+What's more, the Cosmos SDK is a capabilities-based system that allows developers to better reason about the security of interactions between modules. For a deeper look at capabilities, jump to Object-Capability Model.`
     },
     {
-        title: "What are advantages of using React Hooks?",
+        title: "What is Tendermint in Blockchain?( Now it's called CometBFT)",
         type: 5,
-        content: `Primarily, hooks in general enable the extraction and reuse of stateful logic that is common across multiple components without the burden of higher order components or render props. Hooks allow to easily manipulate the state of our functional component without needing to convert them into class components.
-        Hooks don’t work inside classes (because they let I use React without classes). By using them, we can totally avoid using lifecycle methods, such as componentDidMount, componentDidUpdate, componentWillUnmount. Instead, we will use built-in hooks like useEffect .`
+        content: `Tendermint is a core technology used in the blockchain world that focuses on providing a high-performance, secure, and scalable consensus engine. It is a Byzantine Fault Tolerant (BFT) consensus algorithm and is designed to support the creation of public and private blockchains.`
     },
     {
         title: "How to call loading function with React useEffect only once?",
@@ -16,27 +21,25 @@ export const Cosmos = [
         content: `If I only want to run the function given to useEffect after the initial render, I can give it an empty array [] as the second argument.`
     },
     {
-        title: "How to access DOM elements in React?",
+        title: "What are Application-Specific Blockchains?",
         type: 5,
-        content: `One of the useful application of the useRef() hook is to access DOM elements. This is performed in 3 steps:
-        - Define the reference to access the element const elementRef = useRef();
-        - Assign the reference to ref attribute of the element: <div ref={elementRef}></div>;
-        - After mounting, elementRef.current points to the DOM element.`
+        content: `One development paradigm in the blockchain world today is that of virtual-machine blockchains like Ethereum, where development generally revolves around building decentralized applications on top of an existing blockchain as a set of smart contracts. While smart contracts can be very good for some use cases like single-use applications (e.g. ICOs), they often fall short for building complex decentralized platforms. More generally, smart contracts can be limiting in terms of flexibility, sovereignty and performance.
+        Application-specific blockchains offer a radically different development paradigm than virtual-machine blockchains. An application-specific blockchain is a blockchain customized to operate a single application: developers have all the freedom to make the design decisions required for the application to run optimally. They can also provide better sovereignty, security and performance.`
     },
     {
-        title: "How to use componentWillMount() in React Hooks?",
+        title: "Why the Cosmos SDK?",
         type: 5,
-        content: `I cannot use any of the existing lifecycle methods (componentDidMount, componentDidUpdate, componentWillUnmount etc.) in a hook. They can only be used in class components. And with Hooks I can only use in functional components.
-        I can think of useEffect Hook as componentDidMount, componentDidUpdate, and componentWillUnmount combined.
-        - Code inside componentDidMount run once when the component is mounted. useEffect hook equivalent for this behaviour is.
-        - Without the second parameter the useEffect hook will be called on every render (like componentDidUpdate) of the component which can be dangerous.
-        - Hook equivalent of componentWillUnmount() code will be as follows`
+        content: `The Cosmos SDK is the most advanced framework for building custom modular application-specific blockchains today. Here are a few reasons why you might want to consider building your decentralized application with the Cosmos SDK:
+It allows you to plug and play and customize your consensus layer. As above you can use Rollkit and Celestia as your consensus and data availability layer. This offers a lot of flexibility and customisation.
+Previously the default consensus engine available within the Cosmos SDK is CometBFT. CometBFT is the most (and only) mature BFT consensus engine in existence. It is widely used across the industry and is considered the gold standard consensus engine for building Proof-of-Stake systems.
+The Cosmos SDK is open-source and designed to make it easy to build blockchains out of composable modules. As the ecosystem of open-source Cosmos SDK modules grows, it will become increasingly easier to build complex decentralized platforms with it.
+The Cosmos SDK is inspired by capabilities-based security, and informed by years of wrestling with blockchain state-machines. This makes the Cosmos SDK a very secure environment to build blockchains.
+Most importantly, the Cosmos SDK has already been used to build many application-specific blockchains that are already in production. Among others, we can cite Cosmos Hub, IRIS Hub, Binance Chain, Terra or Kava. Many more are building on the Cosmos SDK.`
     },
     {
-        title: "Does React useState Hook update immediately?",
+        title: "What is Cosmos SDK in simpler terms?",
         type: 5,
-        content: `React useState and setState don’t make changes directly to the state object; they create queues to optimize performance, which is why the changes don’t update immediately. The process to update React state is asynchronous for performance reasons.
-        To perform side effects after state has change, I must use the useEffect`
+        content: `The Cosmos SDK is a framework that facilitates the development of secure state-machines on top of CometBFT. At its core, the Cosmos SDK is a boilerplate implementation of the ABCI in Golang. It comes with a multistore to persist data and a router to handle transactions.`
     },
     {
         title: "What does Batching mean in ReactJS?",

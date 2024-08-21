@@ -273,7 +273,13 @@ I’m able to stay calm by focusing on the bigger picture first and then breakin
     {
         title: "How do you work under pressure?",
         type: 4,
-        content: `Throughout my career, I’ve discovered how to embrace working under pressure. I find that routine can make us complacent, so I try to look for challenges that push me to grow. One time, I was supposed to deliver a project to a client in five days. A colleague who was working with another client had the same deadline, but he had to take a leave of absence due to personal reasons. I was asked to take up both projects at the same time. While I felt an initial sense of panic, I came up with a very detailed time management plan and found new ways to boost my efficiency that enabled me to deliver both projects on time.`
+        content: `Throughout my career, I’ve discovered how to embrace working under pressure. 
+        I find that routine can make us complacent, so I try to look for challenges that push me to grow. 
+        One time, I was supposed to deliver a project to a client in five days. 
+        A colleague who was working with another client had the same deadline, but he had to take a leave of absence due to personal reasons.
+         I was asked to take up both projects at the same time.
+          While I felt an initial sense of panic, I came up with a very detailed time management plan and 
+          found new ways to boost my efficiency that enabled me to deliver both projects on time.`
     },
     {
         title: "How to explain the gaps in your resume?",
@@ -332,7 +338,7 @@ I’m able to stay calm by focusing on the bigger picture first and then breakin
         This pain is enough for me alone, and I don't want many more people in the world to suffer this kind of sadness.
         Luckily, finding a job, I found out that your company is working as a primary mission to help people live healthier lives! Perfect same to my goal.
         Your company is looking for a frontend developer who is both strong in interpersonal skills and tech skills in medical services. I believe my experience aligns with your company’s requirements and makes me a great fit.
-        I'm an effective developer who is skilled in modern frontend technologies especially React, having an eye on design. I'm also fluent in several relevant programming, including backend and blockchain technologies. I'd love to bring my diverse skill set to your company.`                                                                      
+        I'm an effective developer who is skilled in modern frontend technologies especially React, having an eye on design. I'm also fluent in several relevant programming, including backend and blockchain technologies. I'd love to bring my diverse skill set to your company.`
     },
     {
         title: "What additional skills and experiences do you think will help you in this role?",
