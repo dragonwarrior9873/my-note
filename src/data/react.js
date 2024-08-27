@@ -205,6 +205,7 @@ A function to update the state`
     },
     {
         title: "What happens during the lifecycle of a React component?",
+        title: "What happens during the lifecycle of a React component?",
         type: 1,
         content: `At the highest level, React components have lifecycle events that fall into three general categories:
         1. Initialization
