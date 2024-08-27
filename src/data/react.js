@@ -209,7 +209,6 @@ A function to update the state`
         content: `At the highest level, React components have lifecycle events that fall into three general categories:
         1. Initialization
         2. State/Property Updates
-        2. State/Property Updates
         3. Destruction `
     },
     {
