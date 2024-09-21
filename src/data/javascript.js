@@ -1,7 +1,7 @@
 export const javascript = [
 	{
 		title: "What are the possible ways to create objects in JavaScript",
-		type: 3,
+		type: 5,
 		content: `
    There are many ways to create objects in javascript as below
 
@@ -107,7 +107,7 @@ export const javascript = [
 
 	{
 		title: "What is a prototype chain",
-		type: 3,
+		type: 5,
 		content: `
    **Prototype chaining** is used to build new types of objects based on existing ones. It is similar to inheritance in a class based language.
 
@@ -118,7 +118,7 @@ export const javascript = [
    `},
 	{
 		title: "What is the difference between Call, Apply and Bind",
-		type: 3,
+		type: 5,
 		content: `
    The difference between Call, Apply and Bind can be explained with below examples,
 
@@ -179,7 +179,7 @@ export const javascript = [
    `},
 	{
 		title: "What is JSON and its common operations",
-		type: 3,
+		type: 5,
 		content: `
    **JSON** is a text-based data format following JavaScript object syntax, which was popularized by \`Douglas Crockford\`. It is useful when you want to transmit data across a network and it is basically just a text file with an extension of .json, and a MIME type of application/json
 
@@ -198,7 +198,7 @@ export const javascript = [
    `},
 	{
 		title: "What is the purpose of the array slice method",
-		type: 3,
+		type: 5,
 		content: `
    The **slice()** method returns the selected elements in an array as a new array object. It selects the elements starting at the given start argument, and ends at the given optional end argument without including the last element. If you omit the second argument then it selects till the end.
 
@@ -216,7 +216,7 @@ export const javascript = [
    `},
 	{
 		title: "What is the purpose of the array splice method",
-		type: 3,
+		type: 5,
 		content: `
    The **splice()** method is used either adds/removes items to/from an array, and then returns the removed item. The first argument specifies the array position for insertion or deletion whereas the optional second argument indicates the number of elements to be deleted. Each additional argument is added to the array.
 
@@ -237,7 +237,7 @@ export const javascript = [
    `},
 	{
 		title: "What is the difference between slice and splice",
-		type: 3,
+		type: 5,
 		content: `
    Some of the major difference in a tabular form
 
@@ -250,7 +250,7 @@ export const javascript = [
    `},
 	{
 		title: "How do you compare Object and Map",
-		type: 3,
+		type: 5,
 		content: `
    **Objects** are similar to **Maps** in that both let you set keys to values, retrieve those values, delete keys, and detect whether something is stored at a key. Due to this reason, Objects have been used as Maps historically. But there are important differences that make using a Map preferable in certain cases.
 
@@ -264,7 +264,7 @@ export const javascript = [
    `},
 	{
 		title: "What is the difference between == and === operators",
-		type: 3,
+		type: 5,
 		content: `
    JavaScript provides both strict(===, !==) and type-converting(==, !=) equality comparison. The strict operators take type of variable in consideration, while non-strict operators make type correction/conversion based upon values of variables. The strict operators follow the below conditions for different types,
 
@@ -296,14 +296,14 @@ export const javascript = [
    `},
 	{
 		title: "What are lambda or arrow functions",
-		type: 3,
+		type: 5,
 		content: `
     An arrow function is a shorter syntax for a function expression and does not have its own **this, arguments, super, or new.target**. These functions are best suited for non-method functions, and they cannot be used as constructors.
 
     `},
 	{
 		title: "What is a first class function",
-		type: 3,
+		type: 5,
 		content: `
     In Javascript, functions are first class objects. First-class functions means when functions in that language are treated like any other variable.
 
@@ -317,7 +317,7 @@ export const javascript = [
     `},
 	{
 		title: "What is a first order function",
-		type: 3,
+		type: 5,
 		content: `
     First-order function is a function that doesn’t accept another function as an argument and doesn’t return a function as its return value.
 
@@ -328,7 +328,7 @@ export const javascript = [
     `},
 	{
 		title: "What is a higher order function",
-		type: 3,
+		type: 5,
 		content: `
     Higher-order function is a function that accepts another function as an argument or returns a function as a return value or both.
 
@@ -342,7 +342,7 @@ export const javascript = [
     `},
 	{
 		title: "What is a unary function",
-		type: 3,
+		type: 5,
 		content: `
     Unary function (i.e. monadic) is a function that accepts exactly one argument. It stands for a single argument accepted by a function.
 
@@ -355,7 +355,7 @@ export const javascript = [
     `},
 	{
 		title: "What is the currying function",
-		type: 3,
+		type: 5,
 		content: `
     Currying is the process of taking a function with multiple arguments and turning it into a sequence of functions each with only a single argument. Currying is named after a mathematician **Haskell Curry**. By applying currying, a n-ary function turns it into a unary function.
 
@@ -376,7 +376,7 @@ export const javascript = [
     `},
 	{
 		title: "What is a pure function",
-		type: 3,
+		type: 5,
 		content: `
     A **Pure function** is a function where the return value is only determined by its arguments without any side effects. i.e, If you call a function with the same arguments 'n' number of times and 'n' number of places in the application then it will always return the same value.
 
@@ -404,7 +404,7 @@ export const javascript = [
     `},
 	{
 		title: "What is the purpose of the let keyword",
-		type: 3,
+		type: 5,
 		content: `
     The \`let\` statement declares a **block scope local variable**. Hence the variables defined with let keyword are limited in scope to the block, statement, or expression on which it is used. Whereas variables declared with the \`var\` keyword used to define a variable globally, or locally to an entire function regardless of block scope.
 
@@ -422,7 +422,7 @@ export const javascript = [
     `},
 	{
 		title: "What is the difference between let and var",
-		type: 3,
+		type: 5,
 		content: `
     You can list out the differences in a tabular format
 
@@ -451,14 +451,14 @@ export const javascript = [
     `},
 	{
 		title: "What is the reason to choose the name let as a keyword",
-		type: 3,
+		type: 5,
 		content: `
     \`let\` is a mathematical statement that was adopted by early programming languages like **Scheme** and **Basic**. It has been borrowed from dozens of other languages that use \`let\` already as a traditional keyword as close to \`var\` as possible.
 
     `},
 	{
 		title: "How do you redeclare variables in switch block without an error",
-		type: 3,
+		type: 5,
 		content: `
     If you try to redeclare variables in a \`switch block\` then it will cause errors because there is only one block. For example, the below code block throws a syntax error as below,
 
@@ -494,7 +494,7 @@ export const javascript = [
     `},
 	{
 		title: "What is the Temporal Dead Zone",
-		type: 3,
+		type: 5,
 		content: `
     The Temporal Dead Zone is a behavior in JavaScript that occurs when declaring a variable with the let and const keywords, but not with var. In ECMAScript 6, accessing a \`let\` or \`const\` variable before its declaration (within its scope) causes a ReferenceError. The time span when that happens, between the creation of a variable’s binding and its declaration, is called the temporal dead zone.
 
@@ -512,7 +512,7 @@ export const javascript = [
     `},
 	{
 		title: "What is IIFE(Immediately Invoked Function Expression)",
-		type: 3,
+		type: 5,
 		content: `
     IIFE (Immediately Invoked Function Expression) is a JavaScript function that runs as soon as it is defined. The signature of it would be as below,
 
@@ -535,7 +535,7 @@ export const javascript = [
     `},
 	{
 		title: "How do you decode or encode a URL in JavaScript?",
-		type: 3,
+		type: 5,
 		content: `
     \`encodeURI()\` function is used to encode an URL. This function requires a URL string as a parameter and return that encoded string.
     \`decodeURI()\` function is used to decode an URL. This function requires an encoded URL string as parameter and return that decoded string.
@@ -552,7 +552,7 @@ export const javascript = [
 
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is memoization",
 		content: `
 
@@ -583,7 +583,7 @@ export const javascript = [
     `},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is Hoisting",
 		content: `
 
@@ -618,7 +618,7 @@ export const javascript = [
     `},
 	{
 		title: "What are classes in ES6",
-		type: 3,
+		type: 5,
 		content: `
     In ES6, Javascript classes are primarily syntactic sugar over JavaScript’s existing prototype-based inheritance.
     For example, the prototype based inheritance written in function expression as below,
@@ -652,7 +652,7 @@ export const javascript = [
     `},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What are closures",
 		content: `
 
@@ -681,7 +681,7 @@ myFunction("Hello Mr."); //output: Hello Mr.John
     `},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What are modules",
 		content: `
 
@@ -690,7 +690,7 @@ myFunction("Hello Mr."); //output: Hello Mr.John
     `},
 	{
 		title: "Why do you need modules",
-		type: 3,
+		type: 5,
 		content: `
     Below are the list of benefits using modules in javascript ecosystem
 
@@ -701,35 +701,35 @@ myFunction("Hello Mr."); //output: Hello Mr.John
     `},
 	{
 		title: "What is scope in javascript",
-		type: 3,
+		type: 5,
 		content: `
     Scope is the accessibility of variables, functions, and objects in some particular part of your code during runtime. In other words, scope determines the visibility of variables and other resources in areas of your code.
 
     `},
 	{
 		title: "What is a service worker",
-		type: 3,
+		type: 5,
 		content: `
     A Service worker is basically a script (JavaScript file) that runs in the background, separate from a web page and provides features that don't need a web page or user interaction. Some of the major features of service workers are Rich offline experiences(offline first web application development), periodic background syncs, push notifications, intercept and handle network requests and programmatically managing a cache of responses.
 
     `},
 	{
 		title: "How do you manipulate DOM using a service worker",
-		type: 3,
+		type: 5,
 		content: `
     Service worker can't access the DOM directly. But it can communicate with the pages it controls by responding to messages sent via the \`postMessage\` interface, and those pages can manipulate the DOM.
 
     `},
 	{
 		title: "How do you reuse information across service worker restarts",
-		type: 3,
+		type: 5,
 		content: `
     The problem with service worker is that it gets terminated when not in use, and restarted when it's next needed, so you cannot rely on global state within a service worker's \`onfetch\` and \`onmessage\` handlers. In this case, service workers will have access to IndexedDB API in order to persist and reuse across restarts.
 
     `},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is IndexedDB",
 		content: `
         IndexedDB is a low - level API for client - side storage of larger amounts of structured data, including files / blobs.This API uses indexes to enable high - performance searches of this data.
@@ -737,7 +737,7 @@ myFunction("Hello Mr."); //output: Hello Mr.John
     `},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is web storage",
 		content: `
 
@@ -749,14 +749,14 @@ myFunction("Hello Mr."); //output: Hello Mr.John
     `},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is a post message",
 		content: `
     Post message is a method that enables cross-origin communication between Window objects.(i.e, between a page and a pop-up that it spawned, or between a page and an iframe embedded within it). Generally, scripts on different pages are allowed to access each other if and only if the pages follow same-origin policy(i.e, pages share the same protocol, port number, and host).
 
     `},
 	{
-		type: 3,
+		type: 5,
 		title: "What is a Cookie",
 		content: `
 
@@ -772,7 +772,7 @@ myFunction("Hello Mr."); //output: Hello Mr.John
         `},
 	{
 		title: "Why do you need a Cookie",
-		type: 3,
+		type: 5,
 		content: `
     Cookies are used to remember information about the user profile(such as username).It basically involves two steps,
 
@@ -782,7 +782,7 @@ myFunction("Hello Mr."); //output: Hello Mr.John
     `},
 	{
 		title: "What are the options in a cookie",
-		type: 3,
+		type: 5,
 		content: `
     There are few below options available for a cookie,
 
@@ -801,7 +801,7 @@ document.cookie = "username=John; path=/services";
     `},
 	{
 		title: "How do you delete a cookie",
-		type: 3,
+		type: 5,
 		content: `
     You can delete a cookie by setting the expiry date as a passed date.You don't need to specify a cookie value in this case.
     For example, you can delete a username cookie in the current page as below.
@@ -816,7 +816,7 @@ document.cookie =
     `},
 	{
 		title: "What are the differences between cookie, local storage and session storage",
-		type: 3,
+		type: 5,
 		content: `
     Below are some of the differences between cookie, local storage and session storage,
 
@@ -830,14 +830,14 @@ document.cookie =
     `},
 	{
 		title: "What is the main difference between localStorage and sessionStorage",
-		type: 3,
+		type: 5,
 		content: `
     LocalStorage is the same as SessionStorage but it persists the data even when the browser is closed and reopened(i.e it has no expiration time) whereas in sessionStorage data gets cleared when the page session ends.
 
     `},
 	{
 		title: "How do you access web storage",
-		type: 3,
+		type: 5,
 		content: `
     The Window object implements the \`WindowLocalStorage\` and \`WindowSessionStorage\` objects which has \`localStorage\`(window.localStorage) and \`sessionStorage\`(window.sessionStorage) properties respectively. These properties create an instance of the Storage object, through which data items can be set, retrieved and removed for a specific domain and storage type (session or local).
     For example, you can read and write on local storage objects as below
@@ -850,7 +850,7 @@ document.cookie =
     `},
 	{
 		title: "What are the methods available on session storage",
-		type: 3,
+		type: 5,
 		content: `
     The session storage provided methods for reading, writing and clearing the session data
 
@@ -871,7 +871,7 @@ document.cookie =
     `},
 	{
 		title: "What is a storage event and its event handler",
-		type: 3,
+		type: 5,
 		content: `
     The StorageEvent is an event that fires when a storage area has been changed in the context of another document. Whereas onstorage property is an EventHandler for processing storage events.
     The syntax would be as below
@@ -899,14 +899,14 @@ document.cookie =
     `},
 	{
 		title: "Why do you need web storage",
-		type: 3,
+		type: 5,
 		content: `
     Web storage is more secure, and large amounts of data can be stored locally, without affecting website performance. Also, the information is never transferred to the server. Hence this is a more recommended approach than Cookies.
 
     `},
 	{
 		title: "How do you check web storage browser support",
-		type: 3,
+		type: 5,
 		content: `
     You need to check browser support for localStorage and sessionStorage before using web storage,
 
@@ -921,7 +921,7 @@ document.cookie =
     `},
 	{
 		title: "How do you check web workers browser support",
-		type: 3,
+		type: 5,
 		content: `
     You need to check browser support for web workers before using it
 
@@ -936,7 +936,7 @@ document.cookie =
     `},
 	{
 		title: "Give an example of a web worker",
-		type: 3,
+		type: 5,
 		content: `
     You need to follow below steps to start using web workers for counting example
 
@@ -988,7 +988,7 @@ document.cookie =
     `},
 	{
 		title: "What are the restrictions of web workers on DOM",
-		type: 3,
+		type: 5,
 		content: `
     WebWorkers don't have access to below javascript objects since they are defined in an external files
 
@@ -999,7 +999,7 @@ document.cookie =
     `},
 
 	{
-		type: 3,
+		type: 5,
     title: "What is a promise",
 		content: `
 
@@ -1035,14 +1035,14 @@ document.cookie =
                 `},
 	{
 		title: "Why do you need a promise",
-		type: 3,
+		type: 5,
 		content: `
     Promises are used to handle asynchronous operations.They provide an alternative approach for callbacks by reducing the callback hell and writing the cleaner code.
 
     `},
 	{
 		title: "What are the three states of promise",
-		type: 3,
+		type: 5,
 		content: `
     Promises have three states:
 
@@ -1053,7 +1053,7 @@ document.cookie =
     `},
 	{
 		title: "What is a callback function",
-		type: 3,
+		type: 5,
 		content: `
     A callback function is a function passed into another function as an argument.This function is invoked inside the outer function to complete an action.
         Let's take a simple example of how to use callback function
@@ -1074,7 +1074,7 @@ document.cookie =
         `},
 	{
 		title: "Why do we need callbacks",
-		type: 3,
+		type: 5,
 		content: `
     The callbacks are needed because javascript is an event driven language.That means instead of waiting for a response javascript will keep executing while listening for other events.
         Let's take an example with the first function invoking an API call(simulated by setTimeout) and the next function which logs the message.
@@ -1102,7 +1102,7 @@ document.cookie =
             `},
 	{
 		title: "What is a callback hell",
-		type: 3,
+		type: 5,
 		content: `
     Callback Hell is an anti - pattern with multiple nested callbacks which makes code hard to read and debug when dealing with asynchronous logic.The callback hell looks like below,
 
@@ -1121,14 +1121,14 @@ document.cookie =
     `},
 	{
 		title: "What are server-sent events",
-		type: 3,
+		type: 5,
 		content: `
 Server - sent events(SSE) is a server push technology enabling a browser to receive automatic updates from a server via HTTP connection without resorting to polling.These are a one way communications channel - events flow from server to client only.This has been used in Facebook / Twitter updates, stock price updates, news feeds etc.
 
     `},
 	{
 		title: "How do you receive server-sent event notifications",
-		type: 3,
+		type: 5,
 		content: `
     The EventSource object is used to receive server - sent event notifications.For example, you can receive messages from server as below,
 
@@ -1144,7 +1144,7 @@ if (typeof EventSource !== "undefined") {
     `},
 	{
 		title: "How do you check browser support for server-sent events",
-		type: 3,
+		type: 5,
 		content: `
     You can perform browser support for server - sent events before using it as below,
 
@@ -1159,7 +1159,7 @@ if (typeof EventSource !== "undefined") {
     `},
 	{
 		title: "What are the events available for server sent events",
-		type: 3,
+		type: 5,
 		content: `
     Below are the list of events available for server sent events
     | Event | Description |
@@ -1171,7 +1171,7 @@ if (typeof EventSource !== "undefined") {
     `},
 	{
 		title: "What are the main rules of promise",
-		type: 3,
+		type: 5,
 		content: `
     A promise must follow a specific set of rules,
 
@@ -1183,7 +1183,7 @@ if (typeof EventSource !== "undefined") {
     `},
 	{
 		title: "What is callback in callback",
-		type: 3,
+		type: 5,
 		content: `
     You can nest one callback inside in another callback to execute the actions sequentially one by one. This is known as callbacks in callbacks.
 
@@ -1205,7 +1205,7 @@ if (typeof EventSource !== "undefined") {
     `},
 	{
 		title: "What is promise chaining",
-		type: 3,
+		type: 5,
 		content: `
     The process of executing a sequence of asynchronous tasks one after another using promises is known as Promise chaining. Let's take an example of promise chaining for calculating the final result,
 
@@ -1238,7 +1238,7 @@ if (typeof EventSource !== "undefined") {
 
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is promise.all",
 		content: `
 
@@ -1253,7 +1253,7 @@ if (typeof EventSource !== "undefined") {
     `},
 	{
 		title: "What is the purpose of the race method in promise",
-		type: 3,
+		type: 5,
 		content: `
     Promise.race() method will return the promise instance which is firstly resolved or rejected. Let's take an example of race() method where promise2 is resolved first
 
@@ -1273,21 +1273,21 @@ if (typeof EventSource !== "undefined") {
     `},
 	{
 		title: "What is a strict mode in javascript",
-		type: 3,
+		type: 5,
 		content: `
     Strict Mode is a new feature in ECMAScript 5 that allows you to place a program, or a function, in a “strict” operating context. This way it prevents certain actions from being taken and throws more exceptions. The literal expression \`"use strict";\` instructs the browser to use the javascript code in the Strict mode.
 
     `},
 	{
 		title: "Why do you need strict mode",
-		type: 3,
+		type: 5,
 		content: `
     Strict mode is useful to write "secure" JavaScript by notifying "bad syntax" into real errors. For example, it eliminates accidentally creating a global variable by throwing an error and also throws an error for assignment to a non-writable property, a getter-only property, a non-existing property, a non-existing variable, or a non-existing object.
 
     `},
 	{
 		title: "How do you declare strict mode",
-		type: 3,
+		type: 5,
 		content: `
     The strict mode is declared by adding "use strict"; to the beginning of a script or a function.
     If declared at the beginning of a script, it has global scope.
@@ -1312,7 +1312,7 @@ if (typeof EventSource !== "undefined") {
     `},
 	{
 		title: "What is the purpose of double exclamation",
-		type: 3,
+		type: 5,
 		content: `
     The double exclamation or negation(!!) ensures the resulting type is a boolean. If it was falsey (e.g. 0, null, undefined, etc.), it will be false, otherwise, true.
     For example, you can test IE version using this expression as below,
@@ -1334,7 +1334,7 @@ if (typeof EventSource !== "undefined") {
     `},
 	{
 		title: "What is the purpose of the delete operator",
-		type: 3,
+		type: 5,
 		content: `
     The delete keyword is used to delete the property as well as its value.
 
@@ -1348,7 +1348,7 @@ if (typeof EventSource !== "undefined") {
     `},
 	{
 		title: "What is typeof operator",
-		type: 3,
+		type: 5,
 		content: `
     You can use the JavaScript typeof operator to find the type of a JavaScript variable. It returns the type of a variable or an expression.
 
@@ -1360,7 +1360,7 @@ if (typeof EventSource !== "undefined") {
     `},
 	{
 		title: "What is undefined property",
-		type: 3,
+		type: 5,
 		content: `
     The undefined property indicates that a variable has not been assigned a value, or declared but not initialized at all. The type of undefined value is undefined too.
 
@@ -1378,7 +1378,7 @@ if (typeof EventSource !== "undefined") {
     `},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is null value",
 		content: `
 
@@ -1393,7 +1393,7 @@ console.log(typeof user); //object
     `},
 	{
 		title: "What is the difference between null and undefined",
-		type: 3,
+		type: 5,
 		content: `
     Below are the main differences between null and undefined,
 
@@ -1408,7 +1408,7 @@ console.log(typeof user); //object
     `},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is eval",
 		content: `
 
@@ -1421,7 +1421,7 @@ console.log(typeof user); //object
     `},
 	{
 		title: "What is the difference between window and document",
-		type: 3,
+		type: 5,
 		content: `
     Below are the main differences between window and document,
 
@@ -1434,7 +1434,7 @@ console.log(typeof user); //object
     `},
 	{
 		title: "How do you access history in javascript",
-		type: 3,
+		type: 5,
 		content: `
     The window.history object contains the browser's history. You can load previous and next URLs in the history using back() and next() methods.
 
@@ -1452,7 +1452,7 @@ function goForward() {
     `},
 	{
 		title: "How do you detect caps lock key turned on or not",
-		type: 3,
+		type: 5,
 		content: `
 The \`mouseEvent getModifierState()\` is used to return a boolean value that indicates whether the specified modifier key is activated or not. The modifiers such as CapsLock, ScrollLock and NumLock are activated when they are clicked, and deactivated when they are clicked again.
 
@@ -1479,7 +1479,7 @@ The \`mouseEvent getModifierState()\` is used to return a boolean value that ind
     `},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is isNaN",
 		content: `
 
@@ -1493,7 +1493,7 @@ isNaN("100"); //false
     `},
 	{
 		title: "What are the differences between undeclared and undefined variables",
-		type: 3,
+		type: 5,
 		content: `
     Below are the major differences between undeclared(not defined) and undefined variables,
 
@@ -1505,7 +1505,7 @@ isNaN("100"); //false
     `},
 	{
 		title: "What are global variables",
-		type: 3,
+		type: 5,
 		content: `
     Global variables are those that are available throughout the length of the code without any scope.The var keyword is used to declare a local variable but if you omit it then it will become global variable
 
@@ -1516,14 +1516,14 @@ msg = "Hello"; // var is missing, it becomes global variable
     `},
 	{
 		title: "What are the problems with global variables",
-		type: 3,
+		type: 5,
 		content: `
     The problem with global variables is the conflict of variable names of local and global scope.It is also difficult to debug and test the code that relies on global variables.
 
     `},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is NaN property",
 		content: `
 
@@ -1537,7 +1537,7 @@ parseInt("Hello");
     `},
 	{
 		title: "What is the purpose of isFinite function",
-		type: 3,
+		type: 5,
 		content: `
     The isFinite() function is used to determine whether a number is a finite, legal number.It returns false if the value is + infinity, -infinity, or NaN(Not - a - Number), otherwise it returns true.
 
@@ -1551,7 +1551,7 @@ isFinite(100); // true
 
     `},
 	{
-		type: 3,
+		type: 5,
 		title: "What is an event flow",
 		content: `
 
@@ -1565,21 +1565,21 @@ isFinite(100); // true
 
 	{
 		title: "What is event bubbling",
-		type: 3,
+		type: 5,
 		content: `
     Event bubbling is a type of event propagation where the event first triggers on the innermost target element, and then successively triggers on the ancestors(parents) of the target element in the same nesting hierarchy till it reaches the outermost DOM element.
 
     `},
 	{
 		title: "What is event capturing",
-		type: 3,
+		type: 5,
 		content: `
     Event capturing is a type of event propagation where the event is first captured by the outermost element, and then successively triggers on the descendants(children) of the target element in the same nesting hierarchy till it reaches the innermost DOM element.
 
     `},
 	{
 		title: "How do you submit a form using JavaScript",
-		type: 3,
+		type: 5,
 		content: `
     You can submit a form using \`document.forms[0].submit()\`. All the form input's information is submitted using onsubmit event handler
 
@@ -1592,7 +1592,7 @@ isFinite(100); // true
     `},
 	{
 		title: "How do you find operating system details",
-		type: 3,
+		type: 5,
 		content: `
     The window.navigator object contains information about the visitor's browser OS details. Some of the OS properties are available under platform property,
 
@@ -1603,14 +1603,14 @@ isFinite(100); // true
     `},
 	{
 		title: "What is the difference between document load and DOMContentLoaded events",
-		type: 3,
+		type: 5,
 		content: `
     The \`DOMContentLoaded\` event is fired when the initial HTML document has been completely loaded and parsed, without waiting for assets(stylesheets, images, and subframes) to finish loading. Whereas The load event is fired when the whole page has loaded, including all dependent resources(stylesheets, images).
 
     `},
 	{
 		title: "What is the difference between native, host and user objects",
-		type: 3,
+		type: 5,
 		content: `
     \`Native objects\` are objects that are part of the JavaScript language defined by the ECMAScript specification. For example, String, Math, RegExp, Object, Function etc core objects defined in the ECMAScript spec.
     \`Host objects\` are objects provided by the browser or runtime environment (Node). For example, window, XmlHttpRequest, DOM nodes etc are considered as host objects.
@@ -1619,7 +1619,7 @@ isFinite(100); // true
     `},
 	{
 		title: "What are the tools or techniques used for debugging JavaScript code",
-		type: 3,
+		type: 5,
 		content: `
     You can use below tools or techniques for debugging javascript
 
@@ -1630,7 +1630,7 @@ isFinite(100); // true
     `},
 	{
 		title: "What are the pros and cons of promises over callbacks",
-		type: 3,
+		type: 5,
 		content: `
     Below are the list of pros and cons of promises over callbacks,
 
@@ -1649,7 +1649,7 @@ isFinite(100); // true
     `},
 	{
 		title: "What is the difference between an attribute and a property",
-		type: 3,
+		type: 5,
 		content: `
     Attributes are defined on the HTML markup whereas properties are defined on the DOM. For example, the below HTML element has 2 attributes type and value,
 
@@ -1675,14 +1675,14 @@ isFinite(100); // true
     `},
 	{
 		title: "What is same-origin policy",
-		type: 3,
+		type: 5,
 		content: `
     The same-origin policy is a policy that prevents JavaScript from making requests across domain boundaries. An origin is defined as a combination of URI scheme, hostname, and port number. If you enable this policy then it prevents a malicious script on one page from obtaining access to sensitive data on another web page using Document Object Model(DOM).
 
     `},
 	{
 		title: "What is the purpose of void 0",
-		type: 3,
+		type: 5,
 		content: `
     Void(0) is used to prevent the page from refreshing. This will be helpful to eliminate the unwanted side-effect, because it will return the undefined primitive value. It is commonly used for HTML documents that use href="JavaScript:Void(0);" within an \`<a>\` element. i.e, when you click a link, the browser loads a new page or refreshes the same page. But this behavior will be prevented using this expression.
     For example, the below link notify the message without reloading the page
@@ -1696,28 +1696,28 @@ isFinite(100); // true
     `},
 	{
 		title: "Is JavaScript a compiled or interpreted language",
-		type: 3,
+		type: 5,
 		content: `
     JavaScript is an interpreted language, not a compiled language. An interpreter in the browser reads over the JavaScript code, interprets each line, and runs it. Nowadays modern browsers use a technology known as Just-In-Time (JIT) compilation, which compiles JavaScript to executable bytecode just as it is about to run.
 
     `},
 	{
 		title: "Is JavaScript a case-sensitive language",
-		type: 3,
+		type: 5,
 		content: `
     Yes, JavaScript is a case sensitive language. The language keywords, variables, function & object names, and any other identifiers must always be typed with a consistent capitalization of letters.
 
     `},
 	{
 		title: "Is there any relation between Java and JavaScript",
-		type: 3,
+		type: 5,
 		content: `
     No, they are entirely two different programming languages and have nothing to do with each other. But both of them are Object Oriented Programming languages and like many other languages, they follow similar syntax for basic features(if, else, for, switch, break, continue etc).
 
     `},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What are events",
 		content: `
 
@@ -1748,7 +1748,7 @@ isFinite(100); // true
      `},
 
 	{
-		type: 3,
+		type: 5,
 		title: "Who created javascript",
 		content: `
      JavaScript was created by Brendan Eich in 1995 during his time at Netscape Communications. Initially it was developed under the name \`Mocha\`, but later the language was officially called \`LiveScript\` when it first shipped in beta releases of Netscape.
@@ -1756,7 +1756,7 @@ isFinite(100); // true
      `},
 	{
 		title: "What is the use of preventDefault method",
-		type: 3,
+		type: 5,
 		content: `
      The preventDefault() method cancels the event if it is cancelable, meaning that the default action or behaviour that belongs to the event will not occur. For example, prevent form submission when clicking on submit button and prevent opening the page URL when clicking on hyperlink are some common use cases.
 
@@ -1773,7 +1773,7 @@ isFinite(100); // true
      `},
 	{
 		title: "What is the use of stopPropagation method",
-		type: 3,
+		type: 5,
 		content: `
      The stopPropagation method is used to stop the event from bubbling up the event chain. For example, the below nested divs with stopPropagation method prevents default event propagation when clicking on nested div(Div1)
 
@@ -1798,7 +1798,7 @@ isFinite(100); // true
      `},
 	{
 		title: "What are the steps involved in return false usage",
-		type: 3,
+		type: 5,
 		content: `
      The return false statement in event handlers performs the below steps,
 
@@ -1809,7 +1809,7 @@ isFinite(100); // true
      `},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is BOM",
 		content: `
 
@@ -1820,7 +1820,7 @@ isFinite(100); // true
 		`},
 	{
 		title: "What is the use of setTimeout",
-		type: 3,
+		type: 5,
 		content: `
      The setTimeout() method is used to call a function or evaluate an expression after a specified number of milliseconds.For example, let's log a message after 2 seconds using setTimeout method,
 
@@ -1833,7 +1833,7 @@ isFinite(100); // true
 	`},
 	{
 		title: "What is the use of setInterval",
-		type: 3,
+		type: 5,
 		content: `
      The setInterval() method is used to call a function or evaluate an expression at specified intervals(in milliseconds).For example, let's log a message after 2 seconds using setInterval method,
 
@@ -1846,14 +1846,14 @@ setInterval(function () {
 	`},
 	{
 		title: "Why is JavaScript treated as Single threaded",
-		type: 3,
+		type: 5,
 		content: `
      JavaScript is a single - threaded language.Because the language specification does not allow the programmer to write code so that the interpreter can run parts of it in parallel in multiple threads or processes.Whereas languages like java, go, C++ can make multi - threaded and multi - process programs.
 
      `},
 	{
 		title: "What is an event delegation",
-		type: 3,
+		type: 5,
 		content: `
      Event delegation is a technique for listening to events where you delegate a parent element as the listener for all of the events that happen inside it.
 
@@ -1876,7 +1876,7 @@ form.addEventListener(
 	`},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is ECMAScript",
 		content: `
 
@@ -1885,7 +1885,7 @@ form.addEventListener(
 		`},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is JSON",
 		content: `
 
@@ -1894,7 +1894,7 @@ form.addEventListener(
      `},
 	{
 		title: "What are the syntax rules of JSON",
-		type: 3,
+		type: 5,
 		content: `
      Below are the list of syntax rules of JSON
 
@@ -1906,7 +1906,7 @@ form.addEventListener(
 		`},
 	{
 		title: "What is the purpose JSON stringify",
-		type: 3,
+		type: 5,
 		content: `
      When sending data to a web server, the data has to be in a string format.You can achieve this by converting JSON object into a string using stringify() method.
 
@@ -1919,7 +1919,7 @@ console.log(userString); //"{"name":"John","age":31}"
 	`},
 	{
 		title: "How do you parse JSON string",
-		type: 3,
+		type: 5,
 		content: `
      When receiving the data from a web server, the data is always in a string format.But you can convert this string value to a javascript object using parse() method.
 
@@ -1932,7 +1932,7 @@ console.log(userJSON); // {name: "John", age: 31}
 	`},
 
 	{
-		type: 3,
+		type: 5,
 		title: "Why do you need JSON",
 		content: `
 
@@ -1941,7 +1941,7 @@ console.log(userJSON); // {name: "John", age: 31}
      `},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What are PWAs",
 		content: `
 
@@ -1950,7 +1950,7 @@ console.log(userJSON); // {name: "John", age: 31}
      `},
 	{
 		title: "What is the purpose of clearTimeout method",
-		type: 3,
+		type: 5,
 		content: `
      The clearTimeout() function is used in javascript to clear the timeout which has been set by setTimeout()function before that.i.e, The return value of setTimeout() function is stored in a variable and it’s passed into the clearTimeout() function to clear the timer.
 
@@ -1976,7 +1976,7 @@ function stop() {
 	`},
 	{
 		title: "What is the purpose of clearInterval method",
-		type: 3,
+		type: 5,
 		content: `
      The clearInterval() function is used in javascript to clear the interval which has been set by setInterval() function.i.e, The return value returned by setInterval() function is stored in a variable and it’s passed into the clearInterval() function to clear the interval.
 
@@ -2002,7 +2002,7 @@ function stop() {
 	`},
 	{
 		title: "How do you redirect new page in javascript",
-		type: 3,
+		type: 5,
 		content: `
      In vanilla javascript, you can redirect to a new page using the \`location\` property of window object. The syntax would be as follows,
 
@@ -2015,7 +2015,7 @@ function stop() {
      `},
 	{
 		title: "How do you check whether a string contains a substring",
-		type: 3,
+		type: 5,
 		content: `
      There are 3 possible ways to check whether a string contains a substring or not,
 
@@ -2046,7 +2046,7 @@ function stop() {
      `},
 	{
 		title: "How do you validate an email in javascript",
-		type: 3,
+		type: 5,
 		content: `
      You can validate an email in javascript using regular expressions. It is recommended to do validations on the server side instead of the client side. Because the javascript can be disabled on the client side.
 
@@ -2061,7 +2061,7 @@ function stop() {
      `},
 	{
 		title: "How do you get the current url with javascript",
-		type: 3,
+		type: 5,
 		content: `
      You can use \`window.location.href\` expression to get the current url path and you can use the same expression for updating the URL too. You can also use \`document.URL\` for read-only purposes but this solution has issues in FF.
 
@@ -2072,7 +2072,7 @@ function stop() {
      `},
 	{
 		title: "What are the various url properties of location object",
-		type: 3,
+		type: 5,
 		content: `
      The below \`Location\` object properties can be used to access URL components of the page,
 
@@ -2088,7 +2088,7 @@ function stop() {
      `},
 	{
 		title: "How do get query string values in javascript",
-		type: 3,
+		type: 5,
 		content: `
      You can use URLSearchParams to get query string values in javascript. Let's see an example to get the client code value from URL query string,
 
@@ -2100,7 +2100,7 @@ function stop() {
      `},
 	{
 		title: "How do you check if a key exists in an object",
-		type: 3,
+		type: 5,
 		content: `
      You can check whether a key exists in an object or not using three approaches,
 
@@ -2136,7 +2136,7 @@ function stop() {
      `},
 	{
 		title: "How do you loop through or enumerate javascript object",
-		type: 3,
+		type: 5,
 		content: `
      You can use the \`for-in\` loop to loop through javascript object. You can also make sure that the key you get is an actual property of an object, and doesn't come from the prototype using \`hasOwnProperty\` method.
 
@@ -2157,7 +2157,7 @@ function stop() {
      `},
 	{
 		title: "How do you test for an empty object",
-		type: 3,
+		type: 5,
 		content: `
      There are different solutions based on ECMAScript versions
 
@@ -2190,7 +2190,7 @@ function stop() {
      `},
 	{
 		title: "What is an arguments object",
-		type: 3,
+		type: 5,
 		content: `
      The arguments object is an Array-like object accessible inside functions that contains the values of the arguments passed to that function. For example, let's see how to use arguments object inside sum function,
 
@@ -2215,7 +2215,7 @@ function stop() {
      `},
 	{
 		title: "How do you make first letter of the string in an uppercase",
-		type: 3,
+		type: 5,
 		content: `
      You can create a function which uses a chain of string methods such as charAt, toUpperCase and slice methods to generate a string with the first letter in uppercase.
 
@@ -2228,7 +2228,7 @@ function stop() {
      `},
 	{
 		title: "What are the pros and cons of for loop",
-		type: 3,
+		type: 5,
 		content: `   
     The for-loop is a commonly used iteration syntax in javascript. It has both pros and con"Pros",
 	  Pros
@@ -2242,7 +2242,7 @@ function stop() {
     `},
 	{
 		title: "How do you display the current date in javascript",
-		type: 3,
+		type: 5,
 		content: `
      You can use \`new Date()\` to generate a new Date object containing the current date and time. For example, let's display the current date in mm/dd/yyyy
 
@@ -2259,7 +2259,7 @@ function stop() {
      `},
 	{
 		title: "How do you compare two date objects",
-		type: 3,
+		type: 5,
 		content: `
      You need to use date.getTime() method to compare date values instead of comparison operators (==, !=, ===, and !== operators)
 
@@ -2273,7 +2273,7 @@ function stop() {
      `},
 	{
 		title: "How do you check if a string starts with another string",
-		type: 3,
+		type: 5,
 		content: `
      You can use ECMAScript 6's \`String.prototype.startsWith()\` method to check if a string starts with another string or not. But it is not yet supported in all browsers. Let's see an example to see this usage,
 
@@ -2285,7 +2285,7 @@ function stop() {
      `},
 	{
 		title: "How do you trim a string in javascript",
-		type: 3,
+		type: 5,
 		content: `
      JavaScript provided a trim method on string types to trim any whitespaces present at the beginning or ending of the string.
 
@@ -2310,7 +2310,7 @@ function stop() {
      `},
 	{
 		title: "How do you add a key value pair in javascript",
-		type: 3,
+		type: 5,
 		content: `
      There are two possible solutions to add new properties to an object. Let's take a simple object to explain these solutions.
 
@@ -2336,7 +2336,7 @@ function stop() {
      `},
 	{
 		title: "Is the !-- notation represents a special operator",
-		type: 3,
+		type: 5,
 		content: `
      No,that's not a special operator. But it is a combination of 2 standard operators one after the other,
 
@@ -2348,7 +2348,7 @@ function stop() {
      `},
 	{
 		title: "How do you assign default values to variables",
-		type: 3,
+		type: 5,
 		content: `
      You can use the logical or operator \`||\` in an assignment expression to provide a default value. The syntax looks like as below,
 
@@ -2361,7 +2361,7 @@ function stop() {
      `},
 	{
 		title: "How do you define multiline strings",
-		type: 3,
+		type: 5,
 		content: `
      You can define multiline string literals using the '\\' character followed by line terminator.
 
@@ -2377,14 +2377,14 @@ function stop() {
      `},
 	{
 		title: "What is an app shell model",
-		type: 3,
+		type: 5,
 		content: `
      An application shell (or app shell) architecture is one way to build a Progressive Web App that reliably and instantly loads on your users' screens, similar to what you see in native applications. It is useful for getting some initial HTML to the screen fast without a network.
 
      `},
 	{
 		title: "Can we define properties for functions",
-		type: 3,
+		type: 5,
 		content: `
      Yes, We can define properties for functions because functions are also objects.
 
@@ -2403,7 +2403,7 @@ function stop() {
      `},
 	{
 		title: "What is the way to find the number of parameters expected by a function",
-		type: 3,
+		type: 5,
 		content: `
      You can use \`function.length\` syntax to find the number of parameters expected by a function. Let's take an example of \`sum\` function to calculate the sum of numbers,
 
@@ -2417,7 +2417,7 @@ function stop() {
      `},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is a polyfill",
 		content: `
 
@@ -2426,7 +2426,7 @@ function stop() {
                 `},
 	{
 		title: "What are break and continue statements",
-		type: 3,
+		type: 5,
 		content: `
      The break statement is used to "jump out" of a loop.i.e, It breaks the loop and continues executing the code after the loop.
 
@@ -2453,7 +2453,7 @@ function stop() {
             `},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What are js labels",
 		content: `
 
@@ -2480,7 +2480,7 @@ function stop() {
             `},
 	{
 		title: "What are the benefits of keeping declarations at the top",
-		type: 3,
+		type: 5,
 		content: `
      It is recommended to keep all declarations at the top of each script or function. The benefits of doing this are,
 
@@ -2492,7 +2492,7 @@ function stop() {
             `},
 	{
 		title: "What are the benefits of initializing variables",
-		type: 3,
+		type: 5,
 		content: `
      It is recommended to initialize variables because of the below benefits,
 
@@ -2503,7 +2503,7 @@ function stop() {
             `},
 	{
 		title: "What are the recommendations to create new object",
-		type: 3,
+		type: 5,
 		content: `
      It is recommended to avoid creating new objects using \`new Object()\`. Instead you can initialize values based on it's type to create the objects.
 
@@ -2530,7 +2530,7 @@ function stop() {
      `},
 	{
 		title: "How do you define JSON arrays",
-		type: 3,
+		type: 5,
 		content: `
      JSON arrays are written inside square brackets and arrays contain javascript objects. For example, the JSON array of users would be as below,
 
@@ -2545,7 +2545,7 @@ function stop() {
      `},
 	{
 		title: "How do you generate random integers",
-		type: 3,
+		type: 5,
 		content: `
      You can use Math.random() with Math.floor() to return random integers. For example, if you want generate random integers between 1 to 10, the multiplication factor should be 10,
 
@@ -2559,7 +2559,7 @@ function stop() {
      `},
 	{
 		title: "Can you write a random integers function to print integers with in a range",
-		type: 3,
+		type: 5,
 		content: `
      Yes, you can create a proper random function to return a random number between min and max (both included)
 
@@ -2575,7 +2575,7 @@ function stop() {
 
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is tree shaking",
 		content: `
 
@@ -2584,21 +2584,21 @@ function stop() {
      `},
 	{
 		title: "What is the need of tree shaking",
-		type: 3,
+		type: 5,
 		content: `
      Tree Shaking can significantly reduce the code size in any application. i.e, The less code we send over the wire the more performant the application will be. For example, if we just want to create a “Hello World” Application using SPA frameworks then it will take around a few MBs, but by tree shaking it can bring down the size to just a few hundred KBs. Tree shaking is implemented in Rollup and Webpack bundlers.
 
      `},
 	{
 		title: "Is it recommended to use eval",
-		type: 3,
+		type: 5,
 		content: `
      No, it allows arbitrary code to be run which causes a security problem. As we know that the eval() function is used to run text as code. In most of the cases, it should not be necessary to use it.
 
      `},
 	{
 		title: "What is a Regular Expression",
-		type: 3,
+		type: 5,
 		content: `
      A regular expression is a sequence of characters that forms a search pattern. You can use this search pattern for searching data in a text. These can be used to perform all types of text search and text replace operations. Let's see the syntax format now,
 
@@ -2615,7 +2615,7 @@ function stop() {
      `},
 	{
 		title: "What are the string methods available in Regular expression",
-		type: 3,
+		type: 5,
 		content: `
      Regular Expressions has two string methods: search() and replace().
      The search() method uses an expression to search for a match, and returns the position of the match.
@@ -2635,7 +2635,7 @@ function stop() {
      `},
 	{
 		title: "What are modifiers in regular expression",
-		type: 3,
+		type: 5,
 		content: `
      Modifiers can be used to perform case-insensitive and global searches. Let's list down some of the modifiers,
 
@@ -2656,7 +2656,7 @@ function stop() {
      `},
 	{
 		title: "What are regular expression patterns",
-		type: 3,
+		type: 5,
 		content: `
      Regular Expressions provide a group of patterns in order to match characters. Basically they are categorized into 3 types,
 
@@ -2679,7 +2679,7 @@ function stop() {
      `},
 	{
 		title: "What is a RegExp object",
-		type: 3,
+		type: 5,
 		content: `
      RegExp object is a regular expression object with predefined properties and methods. Let's see the simple usage of RegExp object,
 
@@ -2692,7 +2692,7 @@ function stop() {
      `},
 	{
 		title: "How do you search a string for a pattern",
-		type: 3,
+		type: 5,
 		content: `
      You can use the test() method of regular expression in order to search a string for a pattern, and return true or false depending on the result.
 
@@ -2704,7 +2704,7 @@ function stop() {
      `},
 	{
 		title: "What is the purpose of exec method",
-		type: 3,
+		type: 5,
 		content: `
      The purpose of exec method is similar to test method but it executes a search for a match in a specified string and returns a result array, or null instead of returning true/false.
 
@@ -2716,7 +2716,7 @@ function stop() {
      `},
 	{
 		title: "How do you change the style of a HTML element",
-		type: 3,
+		type: 5,
 		content: `
      You can change inline style or classname of a HTML element using javascript
 
@@ -2735,14 +2735,14 @@ function stop() {
      `},
 	{
 		title: "What would be the result of 1+2+'3'",
-		type: 3,
+		type: 5,
 		content: `
      The output is going to be \`33\`. Since \`1\` and \`2\` are numeric values, the result of the first two digits is going to be a numeric value \`3\`. The next digit is a string type value because of that the addition of numeric value \`3\` and string type value \`3\` is just going to be a concatenation value \`33\`.
 
      `},
 	{
 		title: "What is a debugger statement",
-		type: 3,
+		type: 5,
 		content: `
      The debugger statement invokes any available debugging functionality, such as setting a breakpoint. If no debugging functionality is available, this statement has no effect.
      For example, in the below function a debugger statement has been inserted. So
@@ -2759,14 +2759,14 @@ function stop() {
      `},
 	{
 		title: "What is the purpose of breakpoints in debugging",
-		type: 3,
+		type: 5,
 		content: `
      You can set breakpoints in the javascript code once the debugger statement is executed and the debugger window pops up. At each breakpoint, javascript will stop executing, and let you examine the JavaScript values. After examining values, you can resume the execution of code using the play button.
 
      `},
 	{
 		title: "Can I use reserved words as identifiers",
-		type: 3,
+		type: 5,
 		content: `
      No, you cannot use the reserved words as variables, labels, object or function names. Let's see one simple example,
 
@@ -2777,7 +2777,7 @@ function stop() {
      `},
 	{
 		title: "How do you detect a mobile browser",
-		type: 3,
+		type: 5,
 		content: `
      You can use regex which returns a true or false value depending on whether or not the user is browsing with a mobile.
 
@@ -2802,7 +2802,7 @@ function stop() {
      `},
 	{
 		title: "How do you detect a mobile browser without regexp",
-		type: 3,
+		type: 5,
 		content: `
      You can detect mobile browsers by simply running through a list of devices and checking if the useragent matches anything. This is an alternative solution for RegExp usage,
 
@@ -2827,7 +2827,7 @@ function stop() {
      `},
 	{
 		title: "How do you get the image width and height using JS",
-		type: 3,
+		type: 5,
 		content: `
      You can programmatically get the image and check the dimensions(width and height) using Javascript.
 
@@ -2842,7 +2842,7 @@ function stop() {
      `},
 	{
 		title: "How do you make synchronous HTTP request",
-		type: 3,
+		type: 5,
 		content: `
      Browsers provide an XMLHttpRequest object which can be used to make synchronous HTTP requests from JavaScript
 
@@ -2858,7 +2858,7 @@ function stop() {
      `},
 	{
 		title: "How do you make asynchronous HTTP request",
-		type: 3,
+		type: 5,
 		content: `
      Browsers provide an XMLHttpRequest object which can be used to make asynchronous HTTP requests from JavaScript by passing the 3rd parameter as true.
 
@@ -2877,7 +2877,7 @@ function stop() {
      `},
 	{
 		title: "How do you convert date to another timezone in javascript",
-		type: 3,
+		type: 5,
 		content: `
      You can use the toLocaleString() method to convert dates in one timezone to another. For example, let's convert current date to British English timezone as below,
 
@@ -2888,7 +2888,7 @@ function stop() {
      `},
 	{
 		title: "What are the properties used to get size of window",
-		type: 3,
+		type: 5,
 		content: `
      You can use innerWidth, innerHeight, clientWidth, clientHeight properties of windows, document element and document body objects to find the size of a window. Let's use them combination of these properties to calculate the size of a window or document,
 
@@ -2907,7 +2907,7 @@ function stop() {
      `},
 	{
 		title: "What is a conditional operator in javascript",
-		type: 3,
+		type: 5,
 		content: `
      The conditional (ternary) operator is the only JavaScript operator that takes three operands which acts as a shortcut for if statements.
 
@@ -2921,7 +2921,7 @@ function stop() {
      `},
 	{
 		title: "Can you apply chaining on conditional operator",
-		type: 3,
+		type: 5,
 		content: `
      Yes, you can apply chaining on conditional operators similar to if … else if … else if … else chain. The syntax is going to be as below,
 
@@ -2954,7 +2954,7 @@ function stop() {
      `},
 	{
 		title: "What are the ways to execute javascript after page load",
-		type: 3,
+		type: 5,
 		content: `
      You can execute javascript after page load in many different ways,
 
@@ -2979,7 +2979,7 @@ function stop() {
      `},
 	{
 		title: "What is the difference between proto and prototype",
-		type: 3,
+		type: 5,
 		content: `
      The \`__proto__\` object is the actual object that is used in the lookup chain to resolve methods, etc. Whereas \`prototype\` is the object that is used to build \`__proto__\` when you create an object with new
 
@@ -2991,7 +2991,7 @@ function stop() {
      `},
 	{
 		title: "Give an example where do you really need semicolon",
-		type: 3,
+		type: 5,
 		content: `
      It is recommended to use semicolons after every statement in JavaScript. For example, in the below case it throws an error ".. is not a function" at runtime due to missing semicolon.
 
@@ -3024,7 +3024,7 @@ function stop() {
      `},
 	{
 		title: "What is a freeze method",
-		type: 3,
+		type: 5,
 		content: `
      The **freeze()** method is used to freeze an object. Freezing an object does not allow adding new properties to an object,prevents from removing and prevents changing the enumerability, configurability, or writability of existing properties. i.e, It returns the passed object and does not create a frozen copy.
 
@@ -3060,7 +3060,7 @@ function stop() {
      `},
 	{
 		title: "What is the purpose of freeze method",
-		type: 3,
+		type: 5,
 		content: `
      Below are the main benefits of using freeze method,
 
@@ -3070,14 +3070,14 @@ function stop() {
      `},
 	{
 		title: "Why do I need to use freeze method",
-		type: 3,
+		type: 5,
 		content: `
      In the Object-oriented paradigm, an existing API contains certain elements that are not intended to be extended, modified, or re-used outside of their current context. Hence it works as the \`final\` keyword which is used in various languages.
 
      `},
 	{
 		title: "How do you detect a browser language preference",
-		type: 3,
+		type: 5,
 		content: `
      You can use navigator object to detect a browser language preference as below,
 
@@ -3093,7 +3093,7 @@ function stop() {
      `},
 	{
 		title: "How to convert string to title case with javascript",
-		type: 3,
+		type: 5,
 		content: `
      Title case means that the first letter of each word is capitalized. You can convert a string to title case using the below function,
 
@@ -3109,7 +3109,7 @@ function stop() {
      `},
 	{
 		title: "How do you detect javascript disabled in the page",
-		type: 3,
+		type: 5,
 		content: `
      You can use the \`<noscript>\` tag to detect javascript disabled or not. The code block inside \`<noscript>\` gets executed when JavaScript is disabled, and is typically used to display alternative content when the page generated in JavaScript.
 
@@ -3125,7 +3125,7 @@ function stop() {
      `},
 	{
 		title: "What are various operators supported by javascript",
-		type: 3,
+		type: 5,
 		content: `
      An operator is capable of manipulating(mathematical and logical computations) a certain value or operand. There are various operators supported by JavaScript as below,
 
@@ -3139,7 +3139,7 @@ function stop() {
      `},
 	{
 		title: "What is a rest parameter",
-		type: 3,
+		type: 5,
 		content: `
      Rest parameter is an improved way to handle function parameters which allows us to represent an indefinite number of arguments as an array. The syntax would be as below,
 
@@ -3170,7 +3170,7 @@ function stop() {
      `},
 	{
 		title: "What happens if you do not use rest parameter as a last argument",
-		type: 3,
+		type: 5,
 		content: `
      The rest parameter should be the last argument, as its job is to collect all the remaining arguments into an array. For example, if you define a function like below it doesn’t make any sense and will throw an error.
 
@@ -3184,7 +3184,7 @@ function stop() {
      `},
 	{
 		title: "What are the bitwise operators available in javascript",
-		type: 3,
+		type: 5,
 		content: `
      Below are the list of bitwise logical operators used in JavaScript
 
@@ -3199,7 +3199,7 @@ function stop() {
      `},
 	{
 		title: "What is a spread operator",
-		type: 3,
+		type: 5,
 		content: `
      Spread operator allows iterables( arrays / objects / strings ) to be expanded into single arguments/elements. Let's take an example to see this behavior,
 
@@ -3216,7 +3216,7 @@ function stop() {
      `},
 	{
 		title: "How do you determine whether object is frozen or not",
-		type: 3,
+		type: 5,
 		content: `
      Object.isFrozen() method is used to determine if an object is frozen or not.An object is frozen if all of the below conditions hold true,
 
@@ -3236,7 +3236,7 @@ function stop() {
      `},
 	{
 		title: "How do you determine two values same or not using object",
-		type: 3,
+		type: 5,
 		content: `
      The Object.is() method determines whether two values are the same value. For example, the usage with different types of values would be,
 
@@ -3262,7 +3262,7 @@ function stop() {
      `},
 	{
 		title: "What is the purpose of using object is method",
-		type: 3,
+		type: 5,
 		content: `
      Some of the applications of Object's \`is\` method are follows,
 
@@ -3274,7 +3274,7 @@ function stop() {
      `},
 	{
 		title: "How do you copy properties from one object to other",
-		type: 3,
+		type: 5,
 		content: `
      You can use the Object.assign() method which is used to copy the values and properties from one or more source objects to a target object. It returns the target object which has properties and values copied from the source objects. The syntax would be as below,
 
@@ -3300,7 +3300,7 @@ function stop() {
      `},
 	{
 		title: "What are the applications of assign method",
-		type: 3,
+		type: 5,
 		content: `
      Below are the some of main applications of Object.assign() method,
 
@@ -3311,7 +3311,7 @@ function stop() {
 
 	{
 		title: "What is a proxy object",
-		type: 3,
+		type: 5,
 		content: `
      The Proxy object is used to define custom behavior for fundamental operations such as property lookup, assignment, enumeration, function invocation, etc. The syntax would be as follows,
 
@@ -3341,7 +3341,7 @@ function stop() {
      `},
 	{
 		title: "What is the purpose of seal method",
-		type: 3,
+		type: 5,
 		content: `
      The **Object.seal()** method is used to seal an object, by preventing new properties from being added to it and marking all existing properties as non-configurable. But values of present properties can still be changed as long as they are writable. Let's see the below example to understand more about seal() method
 
@@ -3359,7 +3359,7 @@ function stop() {
      `},
 	{
 		title: "What are the applications of seal method",
-		type: 3,
+		type: 5,
 		content: `
      Below are the main applications of Object.seal() method,
 
@@ -3369,14 +3369,14 @@ function stop() {
      `},
 	{
 		title: "What are the differences between freeze and seal methods",
-		type: 3,
+		type: 5,
 		content: `
      If an object is frozen using the Object.freeze() method then its properties become immutable and no changes can be made in them whereas if an object is sealed using the Object.seal() method then the changes can be made in the existing properties of the object.
 
      `},
 	{
 		title: "How do you determine if an object is sealed or not",
-		type: 3,
+		type: 5,
 		content: `
      The Object.isSealed() method is used to determine if an object is sealed or not. An object is sealed if all of the below conditions hold true
 
@@ -3398,7 +3398,7 @@ function stop() {
      `},
 	{
 		title: "How do you get enumerable key and value pairs",
-		type: 3,
+		type: 5,
 		content: `
      The Object.entries() method is used to return an array of a given object's own enumerable string-keyed property [key, value] pairs, in the same order as that provided by a for...in loop. Let's see the functionality of object.entries() method in an example,
 
@@ -3419,7 +3419,7 @@ function stop() {
      `},
 	{
 		title: "What is the main difference between Object.values and Object.entries method",
-		type: 3,
+		type: 5,
 		content: `
      The Object.values() method's behavior is similar to Object.entries() method but it returns an array of values instead [key,value] pairs.
 
@@ -3438,7 +3438,7 @@ function stop() {
      `},
 	{
 		title: "How can you get the list of keys of any object",
-		type: 3,
+		type: 5,
 		content: `
      You can use the \`Object.keys()\` method which is used to return an array of a given object's own property names, in the same order as we get with a normal loop. For example, you can get the keys of a user object,
 
@@ -3455,7 +3455,7 @@ function stop() {
      `},
 	{
 		title: "How do you create an object with prototype",
-		type: 3,
+		type: 5,
 		content: `
      The Object.create() method is used to create a new object with the specified prototype object and properties. i.e, It uses an existing object as the prototype of the newly created object. It returns a new object with the specified prototype object and properties.
 
@@ -3477,7 +3477,7 @@ function stop() {
      `},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is a WeakSet",
 		content: `
 
@@ -3501,7 +3501,7 @@ function stop() {
             `},
 	{
 		title: "What are the differences between WeakSet and Set",
-		type: 3,
+		type: 5,
 		content: `
      The main difference is that references to objects in Set are strong while references to objects in WeakSet are weak.i.e, An object in WeakSet can be garbage collected if there is no other reference to it.
      Other differences are,
@@ -3514,7 +3514,7 @@ function stop() {
      `},
 	{
 		title: "List down the collection of methods available on WeakSet",
-		type: 3,
+		type: 5,
 		content: `
      Below are the list of methods available on WeakSet,
 
@@ -3538,7 +3538,7 @@ function stop() {
      `},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is a WeakMap",
 		content: `
 
@@ -3562,7 +3562,7 @@ function stop() {
      `},
 	{
 		title: "What are the differences between WeakMap and Map",
-		type: 3,
+		type: 5,
 		content: `
      The main difference is that references to key objects in Map are strong while references to key objects in WeakMap are weak. i.e, A key object in WeakMap can be garbage collected if there is no other reference to it.
      Other differences are,
@@ -3575,7 +3575,7 @@ function stop() {
      `},
 	{
 		title: "List down the collection of methods available on WeakMap",
-		type: 3,
+		type: 5,
 		content: `
      Below are the list of methods available on WeakMap,
 
@@ -3600,7 +3600,7 @@ function stop() {
      `},
 	{
 		title: "What is the purpose of uneval",
-		type: 3,
+		type: 5,
 		content: `
      The uneval() is an inbuilt function which is used to create a string representation of the source code of an Object. It is a top-level function and is not associated with any object. Let's see the below example to know more about it's functionality,
 
@@ -3613,7 +3613,7 @@ function stop() {
      `},
 	{
 		title: "How do you encode an URL",
-		type: 3,
+		type: 5,
 		content: `
      The encodeURI() function is used to encode complete URI which has special characters except (, / ? : @ & = + $ #) characters.
 
@@ -3626,7 +3626,7 @@ function stop() {
      `},
 	{
 		title: "How do you decode an URL",
-		type: 3,
+		type: 5,
 		content: `
      The decodeURI() function is used to decode a Uniform Resource Identifier (URI) previously created by encodeURI().
 
@@ -3645,7 +3645,7 @@ function stop() {
      `},
 	{
 		title: "How do you print the contents of web page",
-		type: 3,
+		type: 5,
 		content: `
      The window object provided a print() method which is used to print the contents of the current window. It opens a Print dialog box which lets you choose between various printing options. Let's see the usage of print method in an example,
 
@@ -3658,7 +3658,7 @@ function stop() {
      `},
 	{
 		title: "What is the difference between uneval and eval",
-		type: 3,
+		type: 5,
 		content: `
      The \`uneval\` function returns the source of a given object; whereas the \`eval\` function does the opposite, by evaluating that source code in a different memory area. Let's see an example to clarify the difference,
 
@@ -3673,7 +3673,7 @@ function stop() {
      `},
 	{
 		title: "What is an anonymous function",
-		type: 3,
+		type: 5,
 		content: `
      An anonymous function is a function without a name! Anonymous functions are commonly assigned to a variable name or used as a callback function. The syntax would be as below,
 
@@ -3704,7 +3704,7 @@ function stop() {
      `},
 	{
 		title: "What is the precedence order between local and global variables",
-		type: 3,
+		type: 5,
 		content: `
      A local variable takes precedence over a global variable with the same name. Let's see this behavior in an example.
 
@@ -3720,7 +3720,7 @@ function stop() {
      `},
 	{
 		title: "What are javascript accessors",
-		type: 3,
+		type: 5,
 		content: `
      ECMAScript 5 introduced javascript object accessors or computed properties through getters and setters. Getters uses the \`get\` keyword whereas Setters uses the \`set\` keyword.
 
@@ -3744,7 +3744,7 @@ function stop() {
      `},
 	{
 		title: "How do you define property on Object constructor",
-		type: 3,
+		type: 5,
 		content: `
      The Object.defineProperty() static method is used to define a new property directly on an object, or modify an existing property on an object, and returns the object. Let's see an example to know how to define property,
 
@@ -3764,14 +3764,14 @@ function stop() {
      `},
 	{
 		title: "What is the difference between get and defineProperty",
-		type: 3,
+		type: 5,
 		content: `
      Both have similar results until unless you use classes. If you use \`get\` the property will be defined on the prototype of the object whereas using \`Object.defineProperty()\` the property will be defined on the instance it is applied to.
 
      `},
 	{
 		title: "What are the advantages of Getters and Setters",
-		type: 3,
+		type: 5,
 		content: `
      Below are the list of benefits of Getters and Setters,
 
@@ -3784,7 +3784,7 @@ function stop() {
      `},
 	{
 		title: "Can I add getters and setters using defineProperty method",
-		type: 3,
+		type: 5,
 		content: `
      Yes, You can use the \`Object.defineProperty()\` method to add Getters and Setters. For example, the below counter object uses increment, decrement, add and subtract properties,
 
@@ -3824,7 +3824,7 @@ function stop() {
      `},
 	{
 		title: "What is the purpose of switch-case",
-		type: 3,
+		type: 5,
 		content: `
      The switch case statement in JavaScript is used for decision making purposes. In a few cases, using the switch case statement is going to be more convenient than if-else statements. The syntax would be as below,
 
@@ -3852,7 +3852,7 @@ function stop() {
      `},
 	{
 		title: "What are the conventions to be followed for the usage of switch case",
-		type: 3,
+		type: 5,
 		content: `
      Below are the list of conventions should be taken care,
 
@@ -3865,7 +3865,7 @@ function stop() {
      `},
 	{
 		title: "What are primitive data types",
-		type: 3,
+		type: 5,
 		content: `
      A primitive data type is data that has a primitive value (which has no properties or methods). There are 7 types of primitive data types.
 
@@ -3880,7 +3880,7 @@ function stop() {
      `},
 	{
 		title: "What are the different ways to access object properties",
-		type: 3,
+		type: 5,
 		content: `
      There are 3 possible ways for accessing the property of an object.
 
@@ -3905,7 +3905,7 @@ function stop() {
      `},
 	{
 		title: "What are the function parameter rules",
-		type: 3,
+		type: 5,
 		content: `
      JavaScript functions follow below rules for parameters,
 
@@ -3924,7 +3924,7 @@ function stop() {
      `},
 	{
 		title: "What is an error object",
-		type: 3,
+		type: 5,
 		content: `
      An error object is a built in error object that provides error information when an error occurs. It has two properties: name and message. For example, the below function logs error details,
 
@@ -3939,7 +3939,7 @@ function stop() {
      `},
 	{
 		title: "When you get a syntax error",
-		type: 3,
+		type: 5,
 		content: `
      A SyntaxError is thrown if you try to evaluate code with a syntax error. For example, the below missing quote for the function parameter throws a syntax error
 
@@ -3954,7 +3954,7 @@ function stop() {
      `},
 	{
 		title: "What are the different error names from error object",
-		type: 3,
+		type: 5,
 		content: `
      There are 6 different types of error names returned from error object,
      | Error Name | Description |
@@ -3969,7 +3969,7 @@ function stop() {
      `},
 	{
 		title: "What are the various statements in error handling",
-		type: 3,
+		type: 5,
 		content: `
      Below are the list of statements used in an error handling,
 
@@ -3981,7 +3981,7 @@ function stop() {
      `},
 	{
 		title: "What are the two types of loops in javascript",
-		type: 3,
+		type: 5,
 		content: `
      1. **Entry Controlled loops:** In this kind of loop type, the test condition is tested before entering the loop body. For example, For Loop and While Loop comes under this category.
      2. **Exit Controlled Loops:** In this kind of loop type, the test condition is tested or evaluated at the end of the loop body. i.e, the loop body will execute at least once irrespective of test condition true or false. For example, do-while loop comes under this category.
@@ -3989,7 +3989,7 @@ function stop() {
      `},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is nodejs",
 		content: `
 
@@ -3999,14 +3999,14 @@ function stop() {
 
 	{
 		title: "What is an Intl object",
-		type: 3,
+		type: 5,
 		content: `
 			The Intl object is the namespace for the ECMAScript Internationalization API, which provides language sensitive string comparison, number formatting, and date and time formatting.It provides access to several constructors and language sensitive functions.
 
      `},
 	{
 		title: "How do you perform language specific date and time formatting",
-		type: 3,
+		type: 5,
 		content: `
      You can use the \`Intl.DateTimeFormat\` object which is a constructor for objects that enable language-sensitive date and time formatting. Let's see this behavior with an example,
 
@@ -4020,7 +4020,7 @@ function stop() {
 
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is an Iterator",
 		content: `
 
@@ -4029,7 +4029,7 @@ function stop() {
      `},
 	{
 		title: "How does synchronous iteration works",
-		type: 3,
+		type: 5,
 		content: `
      Synchronous iteration was introduced in ES6 and it works with below set of components,
 
@@ -4051,7 +4051,7 @@ function stop() {
      `},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is an event loop",
 		content: `
 
@@ -4061,7 +4061,7 @@ function stop() {
      `},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is call stack",
 		content: `
 
@@ -4097,7 +4097,7 @@ function stop() {
 
 	{
 		title: "What is an event queue",
-		type: 3,
+		type: 5,
 		content: `
       The event queue follows the queue data structure. It stores async callbacks to be added to the call stack. It is also known as the Callback Queue or Macrotask Queue.
     
@@ -4109,7 +4109,7 @@ function stop() {
 
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is a decorator",
 		content: `
 
@@ -4136,7 +4136,7 @@ function stop() {
                 `},
 	{
 		title: "What are the properties of Intl object",
-		type: 3,
+		type: 5,
 		content: `
      Below are the list of properties available on Intl object,
 
@@ -4150,7 +4150,7 @@ function stop() {
      `},
 	{
 		title: "What is an Unary operator",
-		type: 3,
+		type: 5,
 		content: `
      The unary(+) operator is used to convert a variable to a number.If the variable cannot be converted, it will still become a number but with the value NaN.Let's see this behavior in an action.
 
@@ -4167,7 +4167,7 @@ function stop() {
                 `},
 	{
 		title: "How do you sort elements in an array",
-		type: 3,
+		type: 5,
 		content: `
      The sort() method is used to sort the elements of an array in place and returns the sorted array.The example usage would be as below,
 
@@ -4180,7 +4180,7 @@ function stop() {
                 `},
 	{
 		title: "What is the purpose of compareFunction while sorting arrays",
-		type: 3,
+		type: 5,
 		content: `
      The compareFunction is used to define the sort order.If omitted, the array elements are converted to strings, then sorted according to each character's Unicode code point value. Let's take an example to see the usage of compareFunction,
 
@@ -4193,7 +4193,7 @@ function stop() {
                 `},
 	{
 		title: "How do you reversing an array",
-		type: 3,
+		type: 5,
 		content: `
      You can use the reverse() method to reverse the elements in an array.This method is useful to sort an array in descending order.Let's see the usage of reverse() method in an example,
 
@@ -4207,7 +4207,7 @@ function stop() {
                 `},
 	{
 		title: "How do you find min and max value in an array",
-		type: 3,
+		type: 5,
 		content: `
      You can use \`Math.min\` and \`Math.max\` methods on array variables to find the minimum and maximum elements within an array. Let's create two functions to find the min and max value with in an array,
 
@@ -4227,7 +4227,7 @@ function stop() {
      `},
 	{
 		title: "How do you find min and max values without Math functions",
-		type: 3,
+		type: 5,
 		content: `
      You can write functions which loop through an array comparing each value with the lowest value or highest value to find the min and max values. Let's create those functions to find min and max values,
 
@@ -4262,7 +4262,7 @@ function stop() {
      `},
 	{
 		title: "What is an empty statement and purpose of it",
-		type: 3,
+		type: 5,
 		content: `
      The empty statement is a semicolon (;) indicating that no statement will be executed, even if JavaScript syntax requires one. Since there is no action with an empty statement you might think that it's usage is quite less, but the empty statement is occasionally useful when you want to create a loop that has an empty body. For example, you can initialize an array with zero values as below,
 
@@ -4274,7 +4274,7 @@ function stop() {
      `},
 	{
 		title: "How do you get metadata of a module",
-		type: 3,
+		type: 5,
 		content: `
      You can use the \`import.meta\` object which is a meta-property exposing context-specific meta data to a JavaScript module. It contains information about the current module, such as the module's URL. In browsers, you might get different meta data than NodeJS.
 
@@ -4286,7 +4286,7 @@ function stop() {
      `},
 	{
 		title: "What is a comma operator",
-		type: 3,
+		type: 5,
 		content: `
      The comma operator is used to evaluate each of its operands from left to right and returns the value of the last operand. This is totally different from comma usage within arrays, objects, and function arguments and parameters. For example, the usage for numeric expressions would be as below,
 
@@ -4300,7 +4300,7 @@ function stop() {
      `},
 	{
 		title: "What is the advantage of a comma operator",
-		type: 3,
+		type: 5,
 		content: `
      It is normally used to include multiple expressions in a location that requires a single expression. One of the common usages of this comma operator is to supply multiple parameters in a \`for\` loop. For example, the below for loop uses multiple expressions in a single location using comma operator,
 
@@ -4320,7 +4320,7 @@ function stop() {
      `},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is typescript",
 		content: `
 
@@ -4347,7 +4347,7 @@ function stop() {
      `},
 	{
 		title: "What are the differences between javascript and typescript",
-		type: 3,
+		type: 5,
 		content: `
      Below are the list of differences between javascript and typescript,
 
@@ -4362,7 +4362,7 @@ function stop() {
                 `},
 	{
 		title: "What are the advantages of typescript over javascript",
-		type: 3,
+		type: 5,
 		content: `
      Below are some of the advantages of typescript over javascript,
 
@@ -4373,7 +4373,7 @@ function stop() {
      `},
 	{
 		title: "What is an object initializer",
-		type: 3,
+		type: 5,
 		content: `
      An object initializer is an expression that describes the initialization of an Object.The syntax for this expression is represented as a comma - delimited list of zero or more pairs of property names and associated values of an object, enclosed in curly braces({}).This is also known as literal notation.It is one of the ways to create an object.
 
@@ -4386,7 +4386,7 @@ function stop() {
             `},
 	{
 		title: "What is a constructor method",
-		type: 3,
+		type: 5,
 		content: `
      The constructor method is a special method for creating and initializing an object created within a class. If you do not specify a constructor method, a default constructor is used.The example usage of constructor would be as below,
 
@@ -4405,7 +4405,7 @@ function stop() {
             `},
 	{
 		title: "What happens if you write constructor more than once in a class",
-		type: 3,
+		type: 5,
 		content: `
      The "constructor" in a class is a special method and it should be defined only once in a class.i.e, If you write a constructor method more than once in a class it will throw a \`SyntaxError\` error.
 
@@ -4427,7 +4427,7 @@ function stop() {
      `},
 	{
 		title: "How do you call the constructor of a parent class",
-		type: 3,
+		type: 5,
 		content: `
      You can use the \`super\` keyword to call the constructor of a parent class. Remember that \`super()\` must be called before using 'this' reference. Otherwise it will cause a reference error. Let's the usage of it,
 
@@ -4451,7 +4451,7 @@ function stop() {
      `},
 	{
 		title: "How do you get the prototype of an object",
-		type: 3,
+		type: 5,
 		content: `
      You can use the \`Object.getPrototypeOf(obj)\` method to return the prototype of the specified object. i.e. The value of the internal \`prototype\` property. If there are no inherited properties then \`null\` value is returned.
 
@@ -4465,7 +4465,7 @@ function stop() {
      `},
 	{
 		title: "What happens If I pass string type for getPrototype method",
-		type: 3,
+		type: 5,
 		content: `
      In ES5, it will throw a TypeError exception if the obj parameter isn't an object. Whereas in ES2015, the parameter will be coerced to an \`Object\`.
 
@@ -4479,7 +4479,7 @@ function stop() {
      `},
 	{
 		title: "How do you set prototype of one object to another",
-		type: 3,
+		type: 5,
 		content: `
      You can use the \`Object.setPrototypeOf()\` method that sets the prototype (i.e., the internal \`Prototype\` property) of a specified object to another object or null. For example, if you want to set prototype of a square object to rectangle object would be as follows,
 
@@ -4491,7 +4491,7 @@ function stop() {
      `},
 	{
 		title: "How do you check whether an object can be extendable or not",
-		type: 3,
+		type: 5,
 		content: `
      The \`Object.isExtensible()\` method is used to determine if an object is extendable or not. i.e, Whether it can have new properties added to it or not.
 
@@ -4505,7 +4505,7 @@ function stop() {
      `},
 	{
 		title: "How do you prevent an object to extend",
-		type: 3,
+		type: 5,
 		content: `
      The \`Object.preventExtensions()\` method is used to prevent new properties from ever being added to an object. In other words, it prevents future extensions to the object. Let's see the usage of this property,
 
@@ -4526,7 +4526,7 @@ function stop() {
      `},
 	{
 		title: "What are the different ways to make an object non-extensible",
-		type: 3,
+		type: 5,
 		content: `
      You can mark an object non-extensible in 3 ways,
 
@@ -4550,7 +4550,7 @@ function stop() {
      `},
 	{
 		title: "How do you define multiple properties on an object",
-		type: 3,
+		type: 5,
 		content: `
      The \`Object.defineProperties()\` method is used to define new or modify existing properties directly on an object and returning the object. Let's define multiple properties on an empty object,
 
@@ -4569,14 +4569,14 @@ function stop() {
      `},
 	{
 		title: "What is MEAN in javascript",
-		type: 3,
+		type: 5,
 		content: `
      The MEAN (MongoDB, Express, AngularJS, and Node.js) stack is the most popular open-source JavaScript software tech stack available for building dynamic web apps where you can write both the server-side and client-side halves of the web project entirely in JavaScript.
 
      `},
 	{
 		title: "What Is Obfuscation in javascript",
-		type: 3,
+		type: 5,
 		content: `
      Obfuscation is the deliberate act of creating obfuscated javascript code(i.e, source or machine code) that is difficult for humans to understand. It is something similar to encryption, but a machine can understand the code and execute it.
      Let's see the below function before Obfuscation,
@@ -4629,7 +4629,7 @@ function stop() {
      `},
 	{
 		title: "Why do you need Obfuscation",
-		type: 3,
+		type: 5,
 		content: `
      Below are the few reasons for Obfuscation,
 
@@ -4642,7 +4642,7 @@ function stop() {
 
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is Minification",
 		content: `
 
@@ -4651,7 +4651,7 @@ function stop() {
                     `},
 	{
 		title: "What are the advantages of minification",
-		type: 3,
+		type: 5,
 		content: `
      Normally it is recommended to use minification for heavy traffic and intensive requirements of resources.It reduces file sizes with below benefits,
 
@@ -4661,7 +4661,7 @@ function stop() {
                 `},
 	{
 		title: "What are the differences between Obfuscation and Encryption",
-		type: 3,
+		type: 5,
 		content: `
      Below are the main differences between Obfuscation and Encryption,
 
@@ -4674,7 +4674,7 @@ function stop() {
                 `},
 	{
 		title: "What are the common tools used for minification",
-		type: 3,
+		type: 5,
 		content: `
      There are many online / offline tools to minify the javascript files,
 
@@ -4687,7 +4687,7 @@ function stop() {
                     `},
 	{
 		title: "How do you perform form validation using javascript",
-		type: 3,
+		type: 5,
 		content: `
      JavaScript can be used to perform HTML form validation.For example, if the form field is empty, the function needs to notify, and return false, to prevent the form being submitted.
                 Lets' perform user login in an html form,
@@ -4714,7 +4714,7 @@ function stop() {
                 `},
 	{
 		title: "How do you perform form validation without javascript",
-		type: 3,
+		type: 5,
 		content: `
      You can perform HTML form validation automatically without using javascript.The validation enabled by applying the \`required\` attribute to prevent form submission when the input is empty.
 
@@ -4730,7 +4730,7 @@ function stop() {
      `},
 	{
 		title: "What are the DOM methods available for constraint validation",
-		type: 3,
+		type: 5,
 		content: `
      The below DOM methods are available for constraint validation on an invalid input,
 
@@ -4754,7 +4754,7 @@ function stop() {
      `},
 	{
 		title: "What are the available constraint validation DOM properties",
-		type: 3,
+		type: 5,
 		content: `
      Below are the list of some of the constraint validation DOM properties available,
 
@@ -4765,7 +4765,7 @@ function stop() {
      `},
 	{
 		title: "What are the list of validity properties",
-		type: 3,
+		type: 5,
 		content: `
      The validity property of an input element provides a set of properties related to the validity of data.
 
@@ -4782,7 +4782,7 @@ function stop() {
      `},
 	{
 		title: "Give an example usage of rangeOverflow property",
-		type: 3,
+		type: 5,
 		content: `
      If an element's value is greater than its max attribute then rangeOverflow property returns true. For example, the below form submission throws an error if the value is more than 100,
 
@@ -4802,7 +4802,7 @@ function stop() {
      `},
 	{
 		title: "Is enums feature available in javascript",
-		type: 3,
+		type: 5,
 		content: `
      No, javascript does not natively support enums. But there are different kinds of solutions to simulate them even though they may not provide exact equivalents. For example, you can use freeze or seal on object,
 
@@ -4813,7 +4813,7 @@ function stop() {
      `},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is an enum",
 		content: `
 
@@ -4828,7 +4828,7 @@ function stop() {
 			`},
 	{
 		title: "How do you list all properties of an object",
-		type: 3,
+		type: 5,
 		content: `
      You can use the \`Object.getOwnPropertyNames()\` method which returns an array of all properties found directly in a given object. Let's the usage of it in an example,
 
@@ -4846,7 +4846,7 @@ function stop() {
      `},
 	{
 		title: "How do you get property descriptors of an object",
-		type: 3,
+		type: 5,
 		content: `
      You can use the \`Object.getOwnPropertyDescriptors()\` method which returns all own property descriptors of a given object. The example usage of this method is below,
 
@@ -4866,7 +4866,7 @@ function stop() {
      `},
 	{
 		title: "What are the attributes provided by a property descriptor",
-		type: 3,
+		type: 5,
 		content: `
      A property descriptor is a record which has the following attributes
 
@@ -4880,7 +4880,7 @@ function stop() {
      `},
 	{
 		title: "How do you extend classes",
-		type: 3,
+		type: 5,
 		content: `
      The \`extends\` keyword is used in class declarations/expressions to create a class which is a child of another class. It can be used to subclass custom classes as well as built-in objects. The syntax would be as below,
 
@@ -4910,7 +4910,7 @@ function stop() {
      `},
 	{
 		title: "How do I modify the url without reloading the page",
-		type: 3,
+		type: 5,
 		content: `
      The \`window.location.url\` property will be helpful to modify the url but it reloads the page. HTML5 introduced the \`history.pushState()\` and \`history.replaceState()\` methods, which allow you to add and modify history entries, respectively. For example, you can use pushState as below,
 
@@ -4921,7 +4921,7 @@ function stop() {
      `},
 	{
 		title: "How do you check whether an array includes a particular value or not",
-		type: 3,
+		type: 5,
 		content: `
      The \`Array#includes()\` method is used to determine whether an array includes a particular value among its entries by returning either true or false. Let's see an example to find an element(numeric and string) within an array.
 
@@ -4936,7 +4936,7 @@ function stop() {
      `},
 	{
 		title: "How do you compare scalar arrays",
-		type: 3,
+		type: 5,
 		content: `
      You can use length and every method of arrays to compare two scalar(compared directly using ===) arrays. The combination of these expressions can give the expected result,
 
@@ -4963,7 +4963,7 @@ function stop() {
      `},
 	{
 		title: "How to get the value from get parameters",
-		type: 3,
+		type: 5,
 		content: `
      The \`new URL()\` object accepts the url string and \`searchParams\` property of this object can be used to access the get parameters. Remember that you may need to use polyfill or \`window.location\` to access the URL in older browsers(including IE).
 
@@ -4977,7 +4977,7 @@ function stop() {
      `},
 	{
 		title: "How do you print numbers with commas as thousand separators",
-		type: 3,
+		type: 5,
 		content: `
      You can use the \`Number.prototype.toLocaleString()\` method which returns a string with a language-sensitive representation such as thousand separator,currency etc of this number.
 
@@ -4992,7 +4992,7 @@ function stop() {
      `},
 	{
 		title: "What is the difference between java and javascript",
-		type: 3,
+		type: 5,
 		content: `
      Both are totally unrelated programming languages and no relation between them. Java is statically typed, compiled, runs on its own VM. Whereas Javascript is dynamically typed, interpreted, and runs in a browser and nodejs environments. Let's see the major differences in a tabular format,
      | Feature | Java | JavaScript |
@@ -5006,7 +5006,7 @@ function stop() {
      `},
 	{
 		title: "Does JavaScript supports namespace",
-		type: 3,
+		type: 5,
 		content: `
      JavaScript doesn’t support namespace by default. So if you create any element(function, method, object, variable) then it becomes global and pollutes the global namespace. Let's take an example of defining two functions without any namespace,
 
@@ -5025,7 +5025,7 @@ function stop() {
      `},
 	{
 		title: "How do you declare namespace",
-		type: 3,
+		type: 5,
 		content: `
      Even though JavaScript lacks namespaces, we can use Objects , IIFE to create namespaces.
 
@@ -5087,7 +5087,7 @@ function stop() {
      `},
 	{
 		title: "How do you invoke javascript code in an iframe from parent page",
-		type: 3,
+		type: 5,
 		content: `
      Initially iFrame needs to be accessed using either \`document.getElementBy\` or \`window.frames\`. After that \`contentWindow\` property of iFrame gives the access for targetFunction
 
@@ -5099,7 +5099,7 @@ function stop() {
      `},
 	{
 		title: "How do get the timezone offset from date",
-		type: 3,
+		type: 5,
 		content: `
      You can use the \`getTimezoneOffset\` method of the date object. This method returns the time zone difference, in minutes, from current locale (host system settings) to UTC
 
@@ -5111,7 +5111,7 @@ function stop() {
      `},
 	{
 		title: "How do you load CSS and JS files dynamically",
-		type: 3,
+		type: 5,
 		content: `
      You can create both link and script elements in the DOM and append them as child to head tag. Let's create a function to add script and style resources as below,
 
@@ -5137,7 +5137,7 @@ function stop() {
      `},
 	{
 		title: "What are the different methods to find HTML elements in DOM",
-		type: 3,
+		type: 5,
 		content: `
      If you want to access any element in an HTML page, you need to start with accessing the document object. Later you can use any of the below methods to find the HTML element,
 
@@ -5148,7 +5148,7 @@ function stop() {
      `},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is jQuery",
 		content: `
 
@@ -5166,7 +5166,7 @@ function stop() {
 			`},
 	{
 		title: "What is V8 JavaScript engine",
-		type: 3,
+		type: 5,
 		content: `
      V8 is an open source high - performance JavaScript engine used by the Google Chrome browser, written in C++. It is also being used in the node.js project.It implements ECMAScript and WebAssembly, and runs on Windows 7 or later, macOS 10.12 +, and Linux systems that use x64, IA - 32, ARM, or MIPS processors.
      ** Note:** It can run standalone, or can be embedded into any C++ application.
@@ -5174,7 +5174,7 @@ function stop() {
      `},
 	{
 		title: "Why do we call javascript as dynamic language",
-		type: 3,
+		type: 5,
 		content: `
      JavaScript is a loosely typed or a dynamic language because variables in JavaScript are not directly associated with any particular value type, and any variable can be assigned / reassigned with values of all types.
 
@@ -5187,7 +5187,7 @@ function stop() {
 			`},
 	{
 		title: "What is a void operator",
-		type: 3,
+		type: 5,
 		content: `
 		The \`void\` operator evaluates the given expression and then returns undefined(i.e, without returning value). The syntax would be as below,
 
@@ -5209,7 +5209,7 @@ function stop() {
      `},
 	{
 		title: "How to set the cursor to wait",
-		type: 3,
+		type: 5,
 		content: `
      The cursor can be set to wait in JavaScript by using the property "cursor". Let's perform this behavior on page load using the below function.
 
@@ -5228,7 +5228,7 @@ function stop() {
      `},
 	{
 		title: "How do you create an infinite loop",
-		type: 3,
+		type: 5,
 		content: `
      You can create infinite loops using for and while loops without using any expressions. The for loop construct or syntax is better approach in terms of ESLint and code optimizer tools,
 
@@ -5240,7 +5240,7 @@ function stop() {
      `},
 	{
 		title: "Why do you need to avoid with statement",
-		type: 3,
+		type: 5,
 		content: `
      JavaScript's with statement was intended to provide a shorthand for writing recurring accesses to objects. So it can help reduce file size by reducing the need to repeat a lengthy object reference without performance penalty. Let's take an example where it is used to avoid redundancy when accessing an object several times.
 
@@ -5263,7 +5263,7 @@ function stop() {
      `},
 	{
 		title: "What is the output of below for loops",
-		type: 3,
+		type: 5,
 		content: `
      ---javascript
      for (var i = 0; i < 4; i++) {
@@ -5286,7 +5286,7 @@ function stop() {
      `},
 	{
 		title: "List down some of the features of ES6",
-		type: 3,
+		type: 5,
 		content: `
      Below are the list of some new features of ES6,
 
@@ -5306,7 +5306,7 @@ function stop() {
      `},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is ES6",
 		content: `
 
@@ -5315,7 +5315,7 @@ function stop() {
      `},
 	{
 		title: "Can I redeclare let and const variables",
-		type: 3,
+		type: 5,
 		content: `
 	No, you cannot redeclare let and const variables.If you do, it throws below error
 
@@ -5353,7 +5353,7 @@ function stop() {
      `},
 	{
 		title: "Is const variable makes the value immutable",
-		type: 3,
+		type: 5,
 		content: `
      No, the const variable doesn't make the value immutable. But it disallows subsequent assignments(i.e, You can declare with assignment but can't assign another value later)
 
@@ -5366,7 +5366,7 @@ function stop() {
      `},
 	{
 		title: "What are default parameters",
-		type: 3,
+		type: 5,
 		content: `
      In E5, we need to depend on logical OR operators to handle default values of function parameters. Whereas in ES6, Default function parameters feature allows parameters to be initialized with default values if no value or undefined is passed. Let's compare the behavior with an examples,
 
@@ -5395,7 +5395,7 @@ function stop() {
      `},
 	{
 		title: "What are template literals",
-		type: 3,
+		type: 5,
 		content: `
      Template literals or template strings are string literals allowing embedded expressions. These are enclosed by the back-tick (\`) character instead of double or single quotes.
      In E6, this feature enables using dynamic expressions as below,
@@ -5415,7 +5415,7 @@ function stop() {
      `},
 	{
 		title: "How do you write multi-line strings in template literals",
-		type: 3,
+		type: 5,
 		content: `
      In ES5, you would have to use newline escape characters('\\n') and concatenation symbols(+) in order to get multi-line strings.
 
@@ -5433,7 +5433,7 @@ function stop() {
      `},
 	{
 		title: "What are nesting templates",
-		type: 3,
+		type: 5,
 		content: `
      The nesting template is a feature supported within template literals syntax to allow inner backticks inside a placeholder \${ } within the template. For example, the below nesting template is used to display the icons based on user permissions whereas outer template checks for platform type,
 
@@ -5455,7 +5455,7 @@ function stop() {
      `},
 	{
 		title: "What are tagged templates",
-		type: 3,
+		type: 5,
 		content: `
      Tagged templates are the advanced form of templates in which tags allow you to parse template literals with a function. The tag function accepts the first parameter as an array of strings and remaining parameters as expressions. This function can also return manipulated strings based on parameters. Let's see the usage of this tagged template behavior of an IT professional skill set in an organization,
 
@@ -5496,7 +5496,7 @@ function stop() {
 
 
 	{
-		type: 3,
+		type: 5,
 		title: "What are raw strings",
 		content: `
 
@@ -5528,7 +5528,7 @@ function stop() {
      `},
 	{
 		title: "What is destructuring assignment",
-		type: 3,
+		type: 5,
 		content: `
      The destructuring assignment is a JavaScript expression that makes it possible to unpack values from arrays or properties from objects into distinct variables.
      Let's get the month values from an array using destructuring assignment
@@ -5553,7 +5553,7 @@ function stop() {
      `},
 	{
 		title: "What are default values in destructuring assignment",
-		type: 3,
+		type: 5,
 		content: `
      A variable can be assigned a default value when the value unpacked from the array or object is undefined during destructuring assignment. It helps to avoid setting default values separately for each assignment. Let's take an example for both arrays and object use cases,
 
@@ -5581,7 +5581,7 @@ function stop() {
      `},
 	{
 		title: "How do you swap variables in destructuring assignment",
-		type: 3,
+		type: 5,
 		content: `
      If you don't use destructuring assignment, swapping two values requires a temporary variable. Whereas using a destructuring feature, two variable values can be swapped in one destructuring expression. Let's swap two number variables in array destructuring assignment,
 
@@ -5597,7 +5597,7 @@ function stop() {
      `},
 	{
 		title: "What are enhanced object literals",
-		type: 3,
+		type: 5,
 		content: `
      Object literals make it easy to quickly create objects with properties inside the curly braces. For example, it provides shorter syntax for common object property definition as below.
 
@@ -5617,7 +5617,7 @@ function stop() {
      `},
 	{
 		title: "What are dynamic imports",
-		type: 3,
+		type: 5,
 		content: `
      The dynamic imports using \`import()\` function syntax allows us to load modules on demand by using promises or the async/await syntax. Currently this feature is in [stage4 proposal](https://github.com/tc39/proposal-dynamic-import). The main advantage of dynamic imports is reduction of our bundle's sizes, the size/payload response of our requests and overall improvements in the user experience.
      The syntax of dynamic imports would be as below,
@@ -5629,7 +5629,7 @@ function stop() {
      `},
 	{
 		title: "What are the use cases for dynamic imports",
-		type: 3,
+		type: 5,
 		content: `
      Below are some of the use cases of using dynamic imports over static imports,
 
@@ -5654,7 +5654,7 @@ function stop() {
 
 
 	{
-		type: 3,
+		type: 5,
 		title: "What are typed arrays",
 		content: `
 
@@ -5681,7 +5681,7 @@ function stop() {
                 `},
 	{
 		title: "What are the advantages of module loaders",
-		type: 3,
+		type: 5,
 		content: `
      The module loaders provides the below features,
 
@@ -5694,7 +5694,7 @@ function stop() {
                 `},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is collation",
 		content: `
 
@@ -5723,7 +5723,7 @@ function stop() {
      `},
 	{
 		title: "What is for...of statement",
-		type: 3,
+		type: 5,
 		content: `
      The for...of statement creates a loop iterating over iterable objects or elements such as built-in String, Array, Array-like objects (like arguments or NodeList), TypedArray, Map, Set, and user-defined iterables. The basic usage of for...of statement on arrays would be as below,
 
@@ -5739,7 +5739,7 @@ function stop() {
      `},
 	{
 		title: "What is the output of below spread operator array",
-		type: 3,
+		type: 5,
 		content: `
      ---javascript
      [..."John Resig"];
@@ -5752,7 +5752,7 @@ function stop() {
 
 
 	{
-		type: 3,
+		type: 5,
 		title: "Is PostMessage secure",
 		content: `
 
@@ -5761,7 +5761,7 @@ function stop() {
      `},
 	{
 		title: "What are the problems with postmessage target origin as wildcard",
-		type: 3,
+		type: 5,
 		content: `
      The second argument of postMessage method specifies which origin is allowed to receive the message.If you use the wildcard “*” as an argument then any origin is allowed to receive the message.In this case, there is no way for the sender window to know if the target window is at the target origin when sending the message.If the target window has been navigated to another origin, the other origin would receive the data.Hence, this may lead to XSS vulnerabilities.
 
@@ -5772,7 +5772,7 @@ function stop() {
                 `},
 	{
 		title: "How do you avoid receiving postMessages from attackers",
-		type: 3,
+		type: 5,
 		content: `
      Since the listener listens for any message, an attacker can trick the application by sending a message from the attacker’s origin, which gives an impression that the receiver received the message from the actual sender’s window.You can avoid this issue by validating the origin of the message on the receiver's end using the “message.origin” attribute. For examples, let's check the sender's origin [http://www.some-sender.com](http://www.some-sender.com) on receiver side [www.some-receiver.com](www.some-receiver.com),
 
@@ -5788,28 +5788,28 @@ function stop() {
             `},
 	{
 		title: "Can I avoid using postMessages completely",
-		type: 3,
+		type: 5,
 		content: `
      You cannot avoid using postMessages completely(or 100 %).Even though your application doesn’t use postMessage considering the risks, a lot of third party scripts use postMessage to communicate with the third party service.So your application might be using postMessage without your knowledge.
 
      `},
 	{
 		title: "Is postMessages synchronous",
-		type: 3,
+		type: 5,
 		content: `
      The postMessages are synchronous in IE8 browser but they are asynchronous in IE9 and all other modern browsers(i.e, IE9 +, Firefox, Chrome, Safari).Due to this asynchronous behaviour, we use a callback mechanism when the postMessage is returned.
 
      `},
 	{
 		title: "What paradigm is Javascript",
-		type: 3,
+		type: 5,
 		content: `
      JavaScript is a multi - paradigm language, supporting imperative / procedural programming, Object - Oriented Programming and functional programming.JavaScript supports Object - Oriented Programming with prototypical inheritance.
 
      `},
 	{
 		title: "What is the difference between internal and external javascript",
-		type: 3,
+		type: 5,
 		content: `
             ** Internal JavaScript:** It is the source code within the script tag.
      ** External JavaScript:** The source code is stored in an external file(stored with .js extension) and referred with in the tag.
@@ -5817,14 +5817,14 @@ function stop() {
      `},
 	{
 		title: "Is JavaScript faster than server side script",
-		type: 3,
+		type: 5,
 		content: `
         Yes, JavaScript is faster than server side script.Because JavaScript is a client - side script it does not require any web server’s help for its computation or calculation.So JavaScript is always faster than any server - side script like ASP, PHP, etc.
 
      `},
 	{
 		title: "How do you get the status of a checkbox",
-		type: 3,
+		type: 5,
 		content: `
      You can apply the \`checked\` property on the selected checkbox in the DOM. If the value is \`True\` means the checkbox is checked otherwise it is unchecked. For example, the below HTML checkbox element can be access using javascript as below,
 
@@ -5840,14 +5840,14 @@ function stop() {
      `},
 	{
 		title: "What is the purpose of double tilde operator",
-		type: 3,
+		type: 5,
 		content: `
      The double tilde operator(~~) is known as double NOT bitwise operator. This operator is going to be a quicker substitute for Math.floor().
 
      `},
 	{
 		title: "How do you convert character to ASCII code",
-		type: 3,
+		type: 5,
 		content: `
      You can use the \`String.prototype.charCodeAt()\` method to convert string characters to ASCII numbers. For example, let's find ASCII code for the first letter of 'ABC' string,
 
@@ -5865,7 +5865,7 @@ function stop() {
 
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is ArrayBuffer",
 		content: `
 
@@ -5886,7 +5886,7 @@ function stop() {
             `},
 	{
 		title: "What is the output of below string expression",
-		type: 3,
+		type: 5,
 		content: `
         --- javascript
         console.log("Welcome to JS world"[0]);
@@ -5898,7 +5898,7 @@ function stop() {
      `},
 	{
 		title: "What is the purpose of Error object",
-		type: 3,
+		type: 5,
 		content: `
      The Error constructor creates an error object and the instances of error objects are thrown when runtime errors occur.The Error object can also be used as a base object for user - defined exceptions.The syntax of error object would be as below,
 
@@ -5920,7 +5920,7 @@ function stop() {
             `},
 	{
 		title: "What is the purpose of EvalError object",
-		type: 3,
+		type: 5,
 		content: `
      The EvalError object indicates an error regarding the global \`eval()\` function. Even though this exception is not thrown by JavaScript anymore, the EvalError object remains for compatibility. The syntax of this expression would be as below,
 
@@ -5940,7 +5940,7 @@ function stop() {
      `},
 	{
 		title: "What are the list of cases error thrown from non-strict mode to strict mode",
-		type: 3,
+		type: 5,
 		content: `
      When you apply 'use strict'; syntax, some of the below cases will throw a SyntaxError before executing the script
 
@@ -5967,14 +5967,14 @@ function stop() {
      `},
 	{
 		title: "Do all objects have prototypes",
-		type: 3,
+		type: 5,
 		content: `
      No. All objects have prototypes except for the base object which is created by the user, or an object that is created using the new keyword.
 
      `},
 	{
 		title: "What is the difference between a parameter and an argument",
-		type: 3,
+		type: 5,
 		content: `
      Parameter is the variable name of a function definition whereas an argument represents the value given to a function when it is invoked. Let's explain this with a simple function
 
@@ -5990,7 +5990,7 @@ function stop() {
      `},
 	{
 		title: "What is the purpose of some method in arrays",
-		type: 3,
+		type: 5,
 		content: `
      The some() method is used to test whether at least one element in the array passes the test implemented by the provided function. The method returns a boolean value. Let's take an example to test for any odd elements,
 
@@ -6005,7 +6005,7 @@ function stop() {
      `},
 	{
 		title: "How do you combine two or more arrays",
-		type: 3,
+		type: 5,
 		content: `
      The concat() method is used to join two or more arrays by returning a new array containing all the elements. The syntax would be as below,
 
@@ -6025,7 +6025,7 @@ function stop() {
      `},
 	{
 		title: "What is the difference between Shallow and Deep copy",
-		type: 3,
+		type: 5,
 		content: `
      There are two ways to copy an object,
 
@@ -6084,7 +6084,7 @@ function stop() {
      `},
 	{
 		title: "How do you create specific number of copies of a string",
-		type: 3,
+		type: 5,
 		content: `
      The \`repeat()\` method is used to construct and return a new string which contains the specified number of copies of the string on which it was called, concatenated together. Remember that this method has been added to the ECMAScript 2015 specification.
      Let's take an example of Hello string to repeat it 4 times,
@@ -6094,7 +6094,7 @@ function stop() {
      `},
 	{
 		title: "How do you return all matching strings against a regular expression",
-		type: 3,
+		type: 5,
 		content: `
 		The \`matchAll()\` method can be used to return an iterator of all results matching a string against a regular expression. For example, the below example returns an array of matching string results against a regular expression,
 
@@ -6112,7 +6112,7 @@ function stop() {
      `},
 	{
 		title: "How do you trim a string at the beginning or ending",
-		type: 3,
+		type: 5,
 		content: `
      The \`trim\` method of string prototype is used to trim on both sides of a string. But if you want to trim especially at the beginning or ending of the string then you can use \`trimStart/trimLeft\` and \`trimEnd/trimRight\` methods. Let's see an example of these methods on a greeting message,
 
@@ -6130,7 +6130,7 @@ function stop() {
      `},
 	{
 		title: "What is the output of below console statement with unary operator",
-		type: 3,
+		type: 5,
 		content: `
      Let's take console statement with unary operator as given below,
 
@@ -6143,7 +6143,7 @@ function stop() {
      `},
 	{
 		title: "Does javascript uses mixins",
-		type: 3,
+		type: 5,
 		content: `
      Mixin is a generic object-oriented programming term - is a class containing methods that can be used by other classes without a need to inherit from it. In JavaScript we can only inherit from a single object. ie. There can be only one \`[[prototype]]\` for an object.
 
@@ -6180,7 +6180,7 @@ function stop() {
 
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is a thunk function",
 		content: `
 
@@ -6197,7 +6197,7 @@ function stop() {
             `},
 	{
 		title: "What are asynchronous thunks",
-		type: 3,
+		type: 5,
 		content: `
      The asynchronous thunks are useful to make network requests.Let's see an example of network requests,
 
@@ -6222,7 +6222,7 @@ function stop() {
      `},
 	{
 		title: "What is the output of below function calls",
-		type: 3,
+		type: 5,
 		content: `
      **Code snippet:**
 
@@ -6248,7 +6248,7 @@ function stop() {
      `},
 	{
 		title: "How to remove all line breaks from a string",
-		type: 3,
+		type: 5,
 		content: `
      The easiest approach is using regular expressions to detect and replace newlines in the string. In this case, we use replace function along with string to replace with, which in our case is an empty string.
 
@@ -6263,14 +6263,14 @@ function stop() {
      `},
 	{
 		title: "What is the difference between reflow and repaint",
-		type: 3,
+		type: 5,
 		content: `
      A _repaint_ occurs when changes are made which affect the visibility of an element, but not its layout. Examples of this include outline, visibility, or background color. A _reflow_ involves changes that affect the layout of a portion of the page (or the whole page). Resizing the browser window, changing the font, content changing (such as user typing text), using JavaScript methods involving computed styles, adding or removing elements from the DOM, and changing an element's classes are a few of the things that can trigger reflow. Reflow of an element causes the subsequent reflow of all child and ancestor elements as well as any elements following it in the DOM.
 
      `},
 	{
 		title: "What happens with negating an array",
-		type: 3,
+		type: 5,
 		content: `
      Negating an array with \`!\` character will coerce the array into a boolean. Since Arrays are considered to be truthy So negating it will return \`false\`.
 
@@ -6281,7 +6281,7 @@ function stop() {
      `},
 	{
 		title: "What happens if we add two arrays",
-		type: 3,
+		type: 5,
 		content: `
      If you add two arrays together, it will convert them both to strings and concatenate them. For example, the result of adding arrays would be as below,
 
@@ -6294,7 +6294,7 @@ function stop() {
      `},
 	{
 		title: "What is the output of prepend additive operator on falsy values",
-		type: 3,
+		type: 5,
 		content: `
      If you prepend the additive(+) operator on falsy values(null, undefined, NaN, false, ""), the falsy value converts to a number value zero. Let's display them on browser console as below,
 
@@ -6309,7 +6309,7 @@ function stop() {
      `},
 	{
 		title: "How do you create self string using special characters",
-		type: 3,
+		type: 5,
 		content: `
      The self string can be formed with the combination of \`[]()!+\` characters. You need to remember the below conventions to achieve this pattern.
 
@@ -6342,7 +6342,7 @@ function stop() {
      `},
 	{
 		title: "How do you remove falsy values from an array",
-		type: 3,
+		type: 5,
 		content: `
      You can apply the filter method on the array by passing Boolean as a parameter. This way it removes all falsy values(0, undefined, null, false and "") from the array.
 
@@ -6354,7 +6354,7 @@ function stop() {
      `},
 	{
 		title: "How do you get unique values of an array",
-		type: 3,
+		type: 5,
 		content: `
      You can get unique values of an array with the combination of \`Set\` and rest expression/spread(...) syntax.
 
@@ -6365,7 +6365,7 @@ function stop() {
      `},
 	{
 		title: "What is destructuring aliases",
-		type: 3,
+		type: 5,
 		content: `
      Sometimes you would like to have a destructured variable with a different name than the property name. In that case, you'll use a \`: newName\` to specify a name for the variable. This process is called destructuring aliases.
 
@@ -6378,7 +6378,7 @@ function stop() {
      `},
 	{
 		title: "How do you map the array values without using map method",
-		type: 3,
+		type: 5,
 		content: `
      You can map the array values without using the \`map\` method by just using the \`from\` method of Array. Let's map city names from Countries array,
 
@@ -6399,7 +6399,7 @@ function stop() {
      `},
 
 	{
-		type: 3,
+		type: 5,
 		title: "How do you empty an array",
 		content: `
 
@@ -6413,7 +6413,7 @@ function stop() {
      `},
 	{
 		title: "How do you rounding numbers to certain decimals",
-		type: 3,
+		type: 5,
 		content: `
      You can round numbers to a certain number of decimals using \`toFixed\` method from native javascript.
 
@@ -6425,7 +6425,7 @@ function stop() {
      `},
 	{
 		title: "What is the easiest way to convert an array to an object",
-		type: 3,
+		type: 5,
 		content: `
      You can convert an array to an object with the same data using spread(...) operator.
 
@@ -6438,7 +6438,7 @@ function stop() {
      `},
 	{
 		title: "How do you create an array with some data",
-		type: 3,
+		type: 5,
 		content: `
      You can create an array with some data or an array with the same values using \`fill\` method.
 
@@ -6450,7 +6450,7 @@ function stop() {
      `},
 	{
 		title: "What are the placeholders from console object",
-		type: 3,
+		type: 5,
 		content: `
      Below are the list of placeholders available from console object,
 
@@ -6471,7 +6471,7 @@ function stop() {
      `},
 	{
 		title: "Is it possible to add CSS to console messages",
-		type: 3,
+		type: 5,
 		content: `
      Yes, you can apply CSS styles to console messages similar to html text on the web page.
 
@@ -6490,7 +6490,7 @@ function stop() {
      `},
 	{
 		title: "What is the purpose of dir method of console object",
-		type: 3,
+		type: 5,
 		content: `
      The \`console.dir()\` is used to display an interactive list of the properties of the specified JavaScript object as JSON.
 
@@ -6505,7 +6505,7 @@ function stop() {
      `},
 	{
 		title: "Is it possible to debug HTML elements in console",
-		type: 3,
+		type: 5,
 		content: `
      Yes, it is possible to get and debug HTML elements in the console just like inspecting elements.
 
@@ -6521,7 +6521,7 @@ function stop() {
      `},
 	{
 		title: "How do you display data in a tabular format using console object",
-		type: 3,
+		type: 5,
 		content: `
      The \`console.table()\` is used to display data in the console in a tabular format to visualize complex arrays or objects.
 
@@ -6542,7 +6542,7 @@ function stop() {
      `},
 	{
 		title: "How do you verify that an argument is a Number or not",
-		type: 3,
+		type: 5,
 		content: `
      The combination of IsNaN and isFinite methods are used to confirm whether an argument is a number or not.
 
@@ -6555,7 +6555,7 @@ function stop() {
      `},
 	{
 		title: "How do you create copy to clipboard button",
-		type: 3,
+		type: 5,
 		content: `
      You need to select the content(using .select() method) of the input element and execute the copy command with execCommand (i.e, execCommand('copy')). You can also execute other system commands like cut and paste.
 
@@ -6571,7 +6571,7 @@ function stop() {
      `},
 	{
 		title: "What is the shortcut to get timestamp",
-		type: 3,
+		type: 5,
 		content: `
      You can use \`new Date().getTime()\` to get the current timestamp. There is an alternative shortcut to get the value.
 
@@ -6583,7 +6583,7 @@ function stop() {
      `},
 	{
 		title: "How do you flattening multi dimensional arrays",
-		type: 3,
+		type: 5,
 		content: `
      Flattening bi-dimensional arrays is trivial with Spread operator.
 
@@ -6621,7 +6621,7 @@ function stop() {
      `},
 	{
 		title: "What is the easiest multi condition checking",
-		type: 3,
+		type: 5,
 		content: `
      You can use \`indexOf\` to compare input with multiple values instead of checking each value as one condition.
 
@@ -6644,7 +6644,7 @@ function stop() {
      `},
 	{
 		title: "How do you capture browser back button",
-		type: 3,
+		type: 5,
 		content: `
      The \`window.onbeforeunload\` method is used to capture browser back button events. This is helpful to warn users about losing the current data.
 
@@ -6657,7 +6657,7 @@ function stop() {
      `},
 	{
 		title: "How do you disable right click in the web page",
-		type: 3,
+		type: 5,
 		content: `
      The right click on the page can be disabled by returning false from the \`oncontextmenu\` attribute on the body element.
 
@@ -6669,7 +6669,7 @@ function stop() {
 
 
 	{
-		type: 3,
+		type: 5,
 		title: "What are wrapper objects",
 		content: `
 
@@ -6686,7 +6686,7 @@ function stop() {
      `},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is AJAX",
 		content: `
 
@@ -6695,7 +6695,7 @@ function stop() {
      `},
 	{
 		title: "What are the different ways to deal with Asynchronous Code",
-		type: 3,
+		type: 5,
 		content: `
      Below are the list of different ways to deal with Asynchronous code.
 
@@ -6707,7 +6707,7 @@ function stop() {
 				`},
 	{
 		title: "How to cancel a fetch request",
-		type: 3,
+		type: 5,
 		content: `
      Until a few days back, One shortcoming of native promises is no direct way to cancel a fetch request.But the new \`AbortController\` from js specification allows you to use a signal to abort one or multiple fetch calls.
      The basic flow of cancelling a fetch request would be as below,
@@ -6749,7 +6749,7 @@ function stop() {
 
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is web speech API",
 		content: `
 
@@ -6789,7 +6789,7 @@ function stop() {
      `},
 	{
 		title: "What is minimum timeout throttling",
-		type: 3,
+		type: 5,
 		content: `
      Both browser and NodeJS javascript environments throttles with a minimum delay that is greater than 0ms. That means even though setting a delay of 0ms will not happen instantaneously.
      **Browsers:** They have a minimum delay of 4ms. This throttle occurs when successive calls are triggered due to callback nesting(certain depth) or after a certain number of successive intervals.
@@ -6832,14 +6832,14 @@ function stop() {
      `},
 	{
 		title: "How do you implement zero timeout in modern browsers",
-		type: 3,
+		type: 5,
 		content: `
      You can't use setTimeout(fn, 0) to execute the code immediately due to minimum delay of greater than 0ms. But you can use window.postMessage() to achieve this behavior.
 
      `},
 	{
 		title: "What are tasks in event loop",
-		type: 3,
+		type: 5,
 		content: `
      A task is any javascript code/program which is scheduled to be run by the standard mechanisms such as initially starting to run a program, run an event callback, or an interval or timeout being fired. All these tasks are scheduled on a task queue.
      Below are the list of use cases to add tasks to the task queue,
@@ -6851,7 +6851,7 @@ function stop() {
      `},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is microtask",
 		content: `
 
@@ -6862,17 +6862,17 @@ function stop() {
      `},
 	{
 		title: "What are different event loops",
-		type: 3,
+		type: 5,
 		content: `
 				`},
 	{
 		title: "What is the purpose of queueMicrotask",
-		type: 3,
+		type: 5,
 		content: `
 				`},
 	{
 		title: "How do you use javascript libraries in typescript file",
-		type: 3,
+		type: 5,
 		content: `
      It is known that not all JavaScript libraries or frameworks have TypeScript declaration files.But if you still want to use libraries or frameworks in our TypeScript files without getting compilation errors, the only solution is \`declare\` keyword along with a variable declaration. For example, let's imagine you have a library called \`customLibrary\` that doesn’t have a TypeScript declaration and have a namespace called \`customLibrary\` in the global namespace. You can use this library in typescript code as below,
 
@@ -6889,7 +6889,7 @@ function stop() {
      `},
 	{
 		title: "What are the differences between promises and observables",
-		type: 3,
+		type: 5,
 		content: `
      Some of the major difference in a tabular form
 
@@ -6904,7 +6904,7 @@ function stop() {
      `},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is heap",
 		content: `
 
@@ -6916,7 +6916,7 @@ function stop() {
 			`},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is an event table",
 		content: `
 
@@ -6928,7 +6928,7 @@ function stop() {
 			`},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is a microTask queue",
 		content: `
 
@@ -6938,7 +6938,7 @@ function stop() {
      `},
 	{
 		title: "What is the difference between shim and polyfill",
-		type: 3,
+		type: 5,
 		content: `
      A shim is a library that brings a new API to an older environment, using only the means of that environment.It isn't necessarily restricted to a web application. For example, es5-shim.js is used to emulate ES5 features on older browsers (mainly pre IE9).
      Whereas polyfill is a piece of code(or plugin) that provides the technology that you, the developer, expect the browser to provide natively.
@@ -6947,7 +6947,7 @@ function stop() {
      `},
 	{
 		title: "How do you detect primitive or non primitive value type",
-		type: 3,
+		type: 5,
 		content: `
      In JavaScript, primitive types include boolean, string, number, BigInt, null, Symbol and undefined.Whereas non - primitive types include the Objects.But you can easily identify them with the below function,
 
@@ -6967,7 +6967,7 @@ function stop() {
      `},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is babel",
 		content: `
 
@@ -6980,21 +6980,21 @@ function stop() {
             `},
 	{
 		title: "Is Node.js completely single threaded",
-		type: 3,
+		type: 5,
 		content: `
      Node is a single thread, but some of the functions included in the Node.js standard library(e.g, fs module functions) are not single threaded.i.e, Their logic runs outside of the Node.js single thread to improve the speed and performance of a program.
 
      `},
 	{
 		title: "What are the common use cases of observables",
-		type: 3,
+		type: 5,
 		content: `
      Some of the most common use cases of observables are web sockets with push notifications, user input changes, repeating intervals, etc
 
             `},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is RxJS",
 		content: `
 
@@ -7003,7 +7003,7 @@ function stop() {
      `},
 	{
 		title: "What is the difference between Function constructor and function declaration",
-		type: 3,
+		type: 5,
 		content: `
      The functions which are created with \`Function constructor\` do not create closures to their creation contexts but they are always created in the global scope. i.e, the function can access its own local variables and global scope variables only. Whereas function declarations can access outer function variables(closures) too.
 
@@ -7036,7 +7036,7 @@ function stop() {
      `},
 	{
 		title: "What is a Short circuit condition",
-		type: 3,
+		type: 5,
 		content: `
      Short circuit conditions are meant for condensed way of writing simple if statements. Let's demonstrate the scenario using an example. If you would like to login to a portal with an authentication condition, the expression would be as below,
 
@@ -7055,7 +7055,7 @@ function stop() {
      `},
 	{
 		title: "What is the easiest way to resize an array",
-		type: 3,
+		type: 5,
 		content: `
      The length property of an array is useful to resize or empty an array quickly. Let's apply length property on number array to resize the number of elements from 5 to 2,
 
@@ -7080,7 +7080,7 @@ function stop() {
      `},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is an observable",
 		content: `
 
@@ -7106,7 +7106,7 @@ function stop() {
      `},
 	{
 		title: "What is the difference between function and class declarations",
-		type: 3,
+		type: 5,
 		content: `
      The main difference between function declarations and class declarations is \`hoisting\`. The function declarations are hoisted but not class declarations.
 
@@ -7129,7 +7129,7 @@ function stop() {
      `},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is an async function",
 		content: `
 
@@ -7150,7 +7150,7 @@ function stop() {
      `},
 	{
 		title: "How do you prevent promises swallowing errors",
-		type: 3,
+		type: 5,
 		content: `
      While using asynchronous code, JavaScript’s ES6 promises can make your life a lot easier without having callback pyramids and error handling on every second line. But Promises have some pitfalls and the biggest one is swallowing errors by default.
 
@@ -7234,7 +7234,7 @@ function stop() {
      `},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is deno",
 		content: `
 
@@ -7243,7 +7243,7 @@ function stop() {
      `},
 	{
 		title: "How do you make an object iterable in javascript",
-		type: 3,
+		type: 5,
 		content: `
      By default, plain objects are not iterable.But you can make the object iterable by defining a \`Symbol.iterator\` property on it.
 
@@ -7299,7 +7299,7 @@ function stop() {
      `},
 	{
 		title: "What is a Proper Tail Call",
-		type: 3,
+		type: 5,
 		content: `
      First, we should know about tail call before talking about "Proper Tail Call". A tail call is a subroutine or function call performed as the final action of a calling function. Whereas **Proper tail call(PTC)** is a technique where the program or code will not create additional stack frames for a recursion when the function call is a tail call.
 
@@ -7332,7 +7332,7 @@ function stop() {
      `},
 	{
 		title: "How do you check an object is a promise or not",
-		type: 3,
+		type: 5,
 		content: `
      If you don't know if a value is a promise or not, wrapping the value as \`Promise.resolve(value)\` which returns a promise
 
@@ -7372,7 +7372,7 @@ function stop() {
      `},
 	{
 		title: "How to detect if a function is called as constructor",
-		type: 3,
+		type: 5,
 		content: `
      You can use \`new.target\` pseudo-property to detect whether a function was called as a constructor(using the new operator) or as a regular function call.
 
@@ -7396,7 +7396,7 @@ function stop() {
      `},
 	{
 		title: "What are the differences between arguments object and rest parameter",
-		type: 3,
+		type: 5,
 		content: `
      There are three main differences between arguments object and rest parameters
 
@@ -7407,14 +7407,14 @@ function stop() {
      `},
 	{
 		title: "What are the differences between spread operator and rest parameter",
-		type: 3,
+		type: 5,
 		content: `
      Rest parameter collects all remaining elements into an array. Whereas Spread operator allows iterables( arrays / objects / strings ) to be expanded into single arguments/elements. i.e, Rest parameter is opposite to the spread operator.
 
      `},
 	{
 		title: "What are the different kinds of generators",
-		type: 3,
+		type: 5,
 		content: `
      There are five kinds of generators,
 
@@ -7484,7 +7484,7 @@ function stop() {
      `},
 	{
 		title: "What are the built-in iterables",
-		type: 3,
+		type: 5,
 		content: `
      Below are the list of built-in iterables in javascript,
 
@@ -7498,7 +7498,7 @@ function stop() {
      `},
 	{
 		title: "What are the differences between for...of and for...in statements",
-		type: 3,
+		type: 5,
 		content: `
      Both for...in and for...of statements iterate over js data structures. The only difference is over what they iterate:
 
@@ -7528,7 +7528,7 @@ function stop() {
      `},
 	{
 		title: "How do you define instance and non-instance properties",
-		type: 3,
+		type: 5,
 		content: `
      The Instance properties must be defined inside of class methods. For example, name and age properties defined inside constructor as below,
 
@@ -7551,7 +7551,7 @@ function stop() {
      `},
 	{
 		title: "What is the difference between isNaN and Number.isNaN?",
-		type: 3,
+		type: 5,
 		content: `
      1. **isNaN**: The global function \`isNaN\` converts the argument to a Number and returns true if the resulting value is NaN.
      2. **Number.isNaN**: This method does not convert the argument. But it returns true when the type is a Number and value is NaN.
@@ -7566,7 +7566,7 @@ function stop() {
      `},
 	{
 		title: "How to invoke an IIFE without any extra brackets?",
-		type: 3,
+		type: 5,
 		content: `
      Immediately Invoked Function Expressions(IIFE) requires a pair of parenthesis to wrap the function which contains set of statements.
 
@@ -7587,7 +7587,7 @@ function stop() {
      `},
 	{
 		title: "Is that possible to use expressions in switch cases?",
-		type: 3,
+		type: 5,
 		content: `
      You might have seen expressions used in switch condition but it is also possible to use for switch cases by assigning true value for the switch condition. Let's see the weather condition based on temparature as an example,
 
@@ -7609,7 +7609,7 @@ function stop() {
      `},
 	{
 		title: "What is the easiest way to ignore promise errors?",
-		type: 3,
+		type: 5,
 		content: `
      The easiest and safest way to ignore promise errors is void that error. This approach is ESLint friendly too.
 
@@ -7620,7 +7620,7 @@ function stop() {
      `},
 	{
 		title: "How do style the console output using CSS?",
-		type: 3,
+		type: 5,
 		content: `
      You can add CSS styling to the console output using the CSS format content specifier %c. The console string message can be appended after the specifier and CSS style in another argument. Let's print the red the color text using console.log and CSS specifier as below,
 
@@ -7640,7 +7640,7 @@ function stop() {
      `},
 	{
 		title: "What is nullish coalescing operator (??)?",
-		type: 3,
+		type: 5,
 		content: `
      It is a logical operator that returns its right-hand side operand when its left-hand side operand is null or undefined, and otherwise returns its left-hand side operand. This can be contrasted with the logical OR (||) operator, which returns the right-hand side operand if the left operand is any falsy value, not only null or undefined.
 
@@ -7653,7 +7653,7 @@ function stop() {
      `},
 	{
 		title: "How do you group and nest console output?",
-		type: 3,
+		type: 5,
 		content: `
      The \`console.group()\` can be used to group related log messages to be able to easily read the logs and use console.groupEnd()to close the group. Along with this, you can also nest groups which allows to output message in hierarchical manner.
 
@@ -7678,7 +7678,7 @@ function stop() {
      `},
 	{
 		title: "What is the difference between dense and sparse arrays?",
-		type: 3,
+		type: 5,
 		content: `
      An array contains items at each index starting from first(0) to last(array.length - 1) is called as Dense array. Whereas if at least one item is missing at any index, the array is called as sparse.
 
@@ -7702,7 +7702,7 @@ function stop() {
      `},
 	{
 		title: "What are the different ways to create sparse arrays?",
-		type: 3,
+		type: 5,
 		content: `
      There are 4 different ways to create sparse arrays in JavaScript
 
@@ -7727,7 +7727,7 @@ function stop() {
         `},
 	{
 		title: "What is the difference between setTimeout, setImmediate and process.nextTick?",
-		type: 3,
+		type: 5,
 		content: `
      1. **Set Timeout:** setTimeout() is to schedule execution of a one-time callback after delay milliseconds.
      2. **Set Immediate:** The setImmediate function is used to execute a function right after the current event loop finishes.
@@ -7736,7 +7736,7 @@ function stop() {
      `},
 	{
 		title: "How do you reverse an array without modifying original array?",
-		type: 3,
+		type: 5,
 		content: `
      The \`reverse()\` method reverses the order of the elements in an array but it mutates the original array. Let's take a simple example to demonistrate this case,
 
@@ -7815,7 +7815,7 @@ function stop() {
      `},
 	{
 		title: "How do you create custom HTML element?",
-		type: 3,
+		type: 5,
 		content: `
      The creation of custom HTML elements involves two main steps,
 
@@ -7841,7 +7841,7 @@ function stop() {
      `},
 	{
 		title: "What is global execution context?",
-		type: 3,
+		type: 5,
 		content: `
      The global execution context is the default or first execution context that is created by the JavaScript engine before any code is executed(i.e, when the file first loads in the browser). All the global code that is not inside a function or object will be executed inside this global execution context. Since JS engine is single threaded there will be only one global environment and there will be only one global execution context.
 
@@ -7868,14 +7868,14 @@ function stop() {
      `},
 	{
 		title: "What is function execution context?",
-		type: 3,
+		type: 5,
 		content: `
      Whenever a function is invoked, the JavaScript engine creates a different type of Execution Context known as a Function Execution Context (FEC) within the Global Execution Context (GEC) to evaluate and execute the code within that function.
 
      `},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is debouncing?",
 		content: `
 
@@ -7921,7 +7921,7 @@ window.addEventListener("scroll", processChange);
 
 	`},
 	{
-		type: 3,
+		type: 5,
 		title: "What is throttling?",
 		content: `
 
@@ -7948,7 +7948,7 @@ window.addEventListener("scroll", processChange);
      `},
 
 	{
-		type: 3,
+		type: 5,
 		title: "What is optional chaining?",
 		content: `
 
@@ -7973,7 +7973,7 @@ const adventurer = {
 	`},
 	{
 		title: "What is an environment record?",
-		type: 3,
+		type: 5,
 		content: `
 	According to ECMAScript specification 262(9.1):
 

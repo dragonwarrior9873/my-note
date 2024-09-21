@@ -8,8 +8,11 @@ import FocusLock from 'react-focus-lock';
 
 import { types, interview } from "../data/interview";
 import { react } from "../data/react";
+import { go_blockchain } from "../data/go_blockchain";
 import { javascript } from "../data/javascript";
-import { Blockchain } from "../data/AWS";
+import { chris_react } from "../data/Chris_React";
+import { chris_java } from "../data/Chris_JAVA_Spring";
+import { Interview1 } from "../data/AWS";
 import { Cosmos } from "../data/Cosmos";
 import { hook } from "../data/hook";
 import "./style.css";
@@ -94,7 +97,7 @@ const Home = () => {
                             />
                         </div>
                         <Accordion className="mt-1 preline">
-                            {[...interview, ...react, ...hook, ...javascript, ...Blockchain, ...Cosmos].sort((a, b) => a < b).filter(d => {
+                            {[...interview, ...Interview1, ...chris_react, ...chris_java, ...hook, ...javascript, ...Cosmos, ...react, ...go_blockchain].sort((a, b) => a < b).filter(d => {
                                 const keywords = keyword.split(" ");
                                 if (withContent) {
                                     return keywords.every((key) => {
