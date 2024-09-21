@@ -1,16 +1,4 @@
-<<<<<<< HEAD
 export const types = ["Interview", "Interview1", "Chris_React", "Chris_Java", "React Hooks", "JavaScript", "Cosmos", "React", "Go Blockchain"];
-=======
-export const types = [
-  "Interview",
-  "React",
-  "React Hook",
-  "JavaScript",
-  "Blockchain",
-  "Cosmos",
-  "C#",
-];
->>>>>>> 03c5fb8371463208d23329a65a0d01e5ffe18fc3
 
 export const interview = [
   {
@@ -28,48 +16,12 @@ Another interesting project I worked on was a chatbot that utilized ML. Two key 
 I gave importance to the code optimization, responsiveness and the render speed.
 The most exciting thing was that I used some of react hook functions in this project such as useMemo, useCallback so that I can reduce unnecessary rendering into components.
 As a result, my customers gave me good feedbacks and reviews.
-<<<<<<< HEAD
         `
     },
     {
         title: "What are you looking for in a new role?",
         type: 0,
         content: `I'm looking for a role that pushes me to grow as a React developer. 
-=======
-        `,
-  },
-  {
-    title:
-      "What was your last project and what you have done on it? or Briefly summarize your recent contributions to either a web application or API service.",
-    type: 0,
-    content: `My greatest accomplishment was developing Project ISLA, a healthcare system that made a significant impact. 
-        I created a versatile search tool that helps people find hospital information and analytics for over 3,000 hospitals nationwide.
-         Using React, Django, and Elasticsearch, I built a user-friendly platform that includes features like hospital mapping and detailed statistics. 
-         I'm particularly proud of optimizing the site's performance using advanced React techniques, which resulted in faster loading times and a smoother user experience. 
-         The project was a huge success, earning great feedback from customers and potentially saving the healthcare system up to 500,000 dollars by improving efficiency and access to information.
-         This experience taught me the value of combining technical skills with real-world problem-solving to create meaningful solutions in healthcare`,
-  },
-  {
-    title: "Tell me about yourself or Tell me about your work experience",
-    type: 0,
-    content: `First of all, let me tell you about myself.
-        I am a front-end JavaScript developer with 10 years of experience.       
-       I specialize in Web and Decentralized applications, and in addition to front-end development, I am interested in Web Design, back-end development and GraphQL.       
-        My great performances are in TypeScript, JavaScript and its libraries such as React, Redux, Web3.js, etc.       
-       I also have strong knowledge in Data Structure & Algorithm, which always helps me build robust applications.
-       My software developer career was started when I was a university student at the Hong Kong College of Technology.
-       When I was a sophomore, I really loved maths, and later programming so I was selected as one of the Programing contest candidates and participated in a training team.
-       In the team, I learned and practised modern data structrues and algorithmic patterns.
-       That was my meaningful start in the software developers’ world.
-       Later my skills expanded amazingly, especially in React. I built over 30 websites using this stack in 2018.
-       Actually, I am free now and I can start a new work immediately.
-       That's all.`,
-  },
-  {
-    title: "What are you looking for in a new role?",
-    type: 0,
-    content: `I'm looking for a role that pushes me to grow as a React developer. 
->>>>>>> 03c5fb8371463208d23329a65a0d01e5ffe18fc3
         I want to work on cutting-edge projects that make a real difference. 
         Being part of a collaborative team where we can bounce ideas off each other is important to me. 
         I'm excited about opportunities to mentor others and possibly step into leadership down the line. 
