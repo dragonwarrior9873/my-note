@@ -1,4 +1,15 @@
-export const types = ["Interview", "Interview1", "Chris_React", "Chris_Java", "React Hooks", "JavaScript", "Cosmos", "React", "Go Blockchain"];
+export const types = [
+  "Interview",
+  "Interview1",
+  "Chris_React",
+  "Chris_Java",
+  "React Hooks",
+  "JavaScript",
+  "Cosmos",
+  "React",
+  "Go Blockchain",
+  "C#",
+];
 
 export const interview = [
   {
@@ -16,12 +27,12 @@ Another interesting project I worked on was a chatbot that utilized ML. Two key 
 I gave importance to the code optimization, responsiveness and the render speed.
 The most exciting thing was that I used some of react hook functions in this project such as useMemo, useCallback so that I can reduce unnecessary rendering into components.
 As a result, my customers gave me good feedbacks and reviews.
-        `
-    },
-    {
-        title: "What are you looking for in a new role?",
-        type: 0,
-        content: `I'm looking for a role that pushes me to grow as a React developer. 
+        `,
+  },
+  {
+    title: "What are you looking for in a new role?",
+    type: 0,
+    content: `I'm looking for a role that pushes me to grow as a React developer. 
         I want to work on cutting-edge projects that make a real difference. 
         Being part of a collaborative team where we can bounce ideas off each other is important to me. 
         I'm excited about opportunities to mentor others and possibly step into leadership down the line. 

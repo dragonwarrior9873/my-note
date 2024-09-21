@@ -1,14 +1,14 @@
 export const CSharp = [
   {
     title: "What is an Object and a Class?",
-    type: 6,
+    type: 9,
     content: `A-Class is an encapsulation of properties and methods that are used to represent a real-time entity. It is a data structure that brings all the instances together in a single unit.
 
 An Object in an instance of a Class. Technically, it is just a block of memory allocated that can be stored in the form of Variables, Array or a Collection.`,
   },
   {
     title: "What are the fundamental OOP concepts?",
-    type: 6,
+    type: 9,
     content: `The four fundamental concepts of Object-Oriented Programming are:
 
 · Encapsulation – The Internal representation of an object is hidden from the view outside the object‘s definition. Only the required information can be accessed, whereas the rest of the data implementation is hidden.
@@ -21,19 +21,19 @@ An Object in an instance of a Class. Technically, it is just a block of memory a
   },
   {
     title: "What is Managed and Unmanaged code?",
-    type: 6,
+    type: 9,
     content: `Managed code is a code that is executed by the CLR (Common Language Runtime) i.e all application code based on .Net Platform. It is considered as managed because of the .Net framework which internally uses the garbage collector to clear up the unused memory.
 
 Unmanaged code is any code that is executed by the application runtime of any other framework apart from .Net. The application runtime will take care of memory, security, and other performance operations.`,
   },
   {
     title: "What is an Interface?",
-    type: 6,
+    type: 9,
     content: `An Interface is a class with no implementation. The only thing that it contains is the declaration of methods, properties, and events.`,
   },
   {
     title: "What are the different types of classes in C#?",
-    type: 6,
+    type: 9,
     content: `The different types of class in C# are:
 
 · Partial class – Allows its members to be divided or shared with multiple .cs files. It is denoted by the keyword Partial.
@@ -46,7 +46,7 @@ Unmanaged code is any code that is executed by the application runtime of any ot
   },
   {
     title: "Explain Code compilation in C#.",
-    type: 6,
+    type: 9,
     content: `There are four steps in code compilation, which include:
 
 · Compiling the source code into Managed code by C# compiler.
@@ -59,7 +59,7 @@ Unmanaged code is any code that is executed by the application runtime of any ot
   },
   {
     title: "What are the differences between a Class and a Struct?",
-    type: 6,
+    type: 9,
     content: `Given below are the differences between a Class and a Struct:
 
 Class                                                                           Struct
@@ -77,28 +77,28 @@ Can use waste collector for memory management                                   
   {
     title:
       "What is the difference between the Virtual method and the Abstract method?",
-    type: 6,
+    type: 9,
     content: `A Virtual method must always have a default implementation. However, it can be overridden in the derived class, though not mandatory. It can be overridden using override keyword.
 
 An Abstract method does not have an implementation. It resides in the abstract class. It is mandatory that the derived class implements the abstract method. An override keyword is not necessary here though it can be used.`,
   },
   {
     title: "Explain Namespaces in C#.",
-    type: 6,
+    type: 9,
     content: `They are used to organize large code projects. “System” is the most widely used namespace in C#. We can create our own namespace and use one namespace in another, which are called Nested Namespaces.
 
 They are denoted by the keyword “namespace”`,
   },
   {
     title: "What is the “using” statement in C#?",
-    type: 6,
+    type: 9,
     content: `“Using” Keyword denotes that the particular namespace is being used by the program.
 
 For Example, using System. Here System is a namespace. The class Console is defined under System. So we can use the console.writeline (“….”) or readline in our program.`,
   },
   {
     title: "Explain Abstraction.",
-    type: 6,
+    type: 9,
     content: `Abstraction is one of the OOP concepts. It is used to display only the essential features of the class and hides the unnecessary information.
 
 Let us take an Example of a Car:
@@ -109,7 +109,7 @@ So, Abstraction helps in knowing what is necessary and hiding the internal detai
   },
   {
     title: "Explain Polymorphism?",
-    type: 6,
+    type: 9,
     content: `Programmatically, Polymorphism means same method but different implementations.
 
 It is of 2 types, Compile-time and Runtime.
@@ -122,7 +122,7 @@ For Example, If a class has a method Void Add(), polymorphism is achieved by Ove
   },
   {
     title: "How is Exception Handling implemented in C#?",
-    type: 6,
+    type: 9,
     content: `Exception handling is done using four keywords in C#:
 
 · try – Contains a block of code for which an exception will be checked.
@@ -135,7 +135,7 @@ For Example, If a class has a method Void Add(), polymorphism is achieved by Ove
   },
   {
     title: "What are C# I/O Classes? What are the commonly used I/O Classes?",
-    type: 6,
+    type: 9,
     content: `C# has System.IO namespace, consisting of classes that are used to perform various operations on files like creating, deleting, opening, closing, etc.
 
 Some commonly used I/O classes are:
@@ -154,7 +154,7 @@ Some commonly used I/O classes are:
   },
   {
     title: "What is StreamReader/StreamWriter class?",
-    type: 6,
+    type: 9,
     content: `StreamReader and StreamWriter are classes of namespace System.IO. They are used when we want to read or write charact90, Reader-based data, respectively.
 
 Some of the members of StreamReader are: Close(), Read(), Readline().
@@ -176,7 +176,7 @@ Members of StreamWriter are: Close(), Write(), Writeline().
   },
   {
     title: "What is a Destructor in C#?",
-    type: 6,
+    type: 9,
     content: `A Destructor is used to clean up the memory and free the resources. But in C# this is done by the garbage collector on its own. System. GC.Collect() is called internally for cleaning up. But sometimes it may be necessary to implement destructors manually.
 
 For Example:
@@ -188,7 +188,7 @@ For Example:
   },
   {
     title: "What is an Abstract Class?",
-    type: 6,
+    type: 9,
     content: `An Abstract class is a class which is denoted by abstract keyword and can be used only as a Base class. An Abstract class should always be inherited. An instance of the class itself cannot be created. If we do not want any program to create an object of a class, then such classes can be made abstract.
 
 Any method in the abstract class does not have implementations in the same class. But they must be implemented in the child class.
@@ -210,7 +210,7 @@ All the methods in an abstract class are implicitly virtual methods. Hence virtu
   },
   {
     title: "What are Boxing and Unboxing?",
-    type: 6,
+    type: 9,
     content: `Converting a value type to a reference type is called Boxing.
 
 For Example:
@@ -228,12 +228,12 @@ For Example:
   },
   {
     title: "What is the difference between Continue and Break Statement?",
-    type: 6,
+    type: 9,
     content: `Break statement breaks the loop. It makes the control of the program to exit the loop. Continue statement makes the control of the program to exit only the current iteration. It does not break the loop.`,
   },
   {
     title: "What is the difference between finally and finalize block?",
-    type: 6,
+    type: 9,
     content: `finally block is called after the execution of try and catch block. It is used for exception handling. Regardless of whether an exception is caught or not, this block of code will be executed. Usually, this block will have a clean-up code.
 
 finalize method is called just before garbage collection. It is used to perform clean up operations of Unmanaged code. It is automatically called when a given instance is not subsequently called.`,
@@ -241,7 +241,7 @@ finalize method is called just before garbage collection. It is used to perform 
   {
     title:
       "What is an Array? Give the syntax for a single and multi-dimensional array?",
-    type: 6,
+    type: 9,
     content: `An Array is used to store multiple variables of the same type. It is a collection of variables stored in a contiguous memory location.
 
 For Example:
@@ -259,14 +259,14 @@ For Example:
   },
   {
     title: "What is a Jagged Array?",
-    type: 6,
+    type: 9,
     content: `A Jagged array is an array whose elements are arrays. It is also called an array of arrays. It can be either single or multiple dimensions.
 
     int[] jaggedArray = new int[4][];`,
   },
   {
     title: "Name some properties of Array.",
-    type: 6,
+    type: 9,
     content: `Properties of an Array include:
 
 · Length – Gets the total number of elements in an array.
@@ -277,12 +277,12 @@ For Example:
   },
   {
     title: "What is an Array Class?",
-    type: 6,
+    type: 9,
     content: `An Array class is the base class for all arrays. It provides many properties and methods. It is present in the namespace System.`,
   },
   {
     title: "What is a String? What are the properties of a String Class?",
-    type: 6,
+    type: 9,
     content: `A String is a collection of char objects. We can also declare string variables in c#.
 
     string name = “C# Questions”;
@@ -296,7 +296,7 @@ Length gets the number of objects in the current String.`,
   {
     title:
       "What is an Escape Sequence? Name some String escape sequences in C#.",
-    type: 6,
+    type: 9,
     content: `An Escape sequence is denoted by a backslash (\). The backslash indicates that the character that follows it should be interpreted literally or it is a special character. An escape sequence is considered as a single character.
 
 String escape sequences are as follows:
@@ -314,7 +314,7 @@ String escape sequences are as follows:
   {
     title:
       "What are Regular expressions? Search a string using regular expressions?",
-    type: 6,
+    type: 9,
     content: `Regular expression is a template to match a set of input. The pattern can consist of operators, constructs or character literals. Regex is used for string parsing and replacing the character string.
 
 For Example:
@@ -339,7 +339,7 @@ The above example searches for “Python” against the set of inputs from the l
   },
   {
     title: "What are the basic String Operations? Explain.",
-    type: 6,
+    type: 9,
     content: `Some of the basic string operations are:
 
 · Concatenate – Two strings can be concatenated either by using System.String.Concat or by using + operator.
@@ -352,7 +352,7 @@ The above example searches for “Python” against the set of inputs from the l
   },
   {
     title: "What is Parsing? How to Parse a Date Time String?",
-    type: 6,
+    type: 9,
     content: `Parsing is converting a string into another data type.
 
 For Example:
@@ -369,7 +369,7 @@ Follow the same method to convert a DateTime string.
   },
   {
     title: "What is a Delegate? Explain.",
-    type: 6,
+    type: 9,
     content: `A Delegate is a variable that holds the reference to a method. Hence it is a function pointer of reference type. All Delegates are derived from System.Delegate namespace. Both Delegate and the method that it refers to can have the same signature.
 
 Declaring a delegate:
@@ -403,7 +403,7 @@ If there is another method called Start() which creates an object of the delegat
   },
   {
     title: "What are Events?",
-    type: 6,
+    type: 9,
     content: `Events are user actions that generate notifications to the application to which it must respond. The user actions can be mouse movements, keypress and so on.
 
 Programmatically, a class that raises an event is called a publisher and a class which responds/receives the event is called a subscriber. An Event should have at least one subscriber else that event is never raised.
@@ -415,7 +415,7 @@ Delegates are used to declare Events.
   },
   {
     title: "How to use Delegates with Events?",
-    type: 6,
+    type: 9,
     content: `Delegates are used to raise events and handle them. Always a delegate needs to be declared first and then the Events are declared.
 
 Let us see an Example:
@@ -476,7 +476,7 @@ Consider a class called Patient. Consider two other classes, Insurance, and Bank
   },
   {
     title: "What are the different types of Delegates?",
-    type: 6,
+    type: 9,
     content: `The Different types of Delegates are:
 
 Single Delegate – A delegate which can call a single method.
@@ -504,7 +504,7 @@ Predicate<string> myDel is same as delegate bool myDel(string s);`,
   },
   {
     title: "What do Multicast Delegates mean?",
-    type: 6,
+    type: 9,
     content: `A Delegate that points to more than one method is called a Multicast Delegate. Multicasting is achieved by using + and += operator.
 
 Consider the Example from question 32.
@@ -513,7 +513,7 @@ There are two subscribers for deathEvent, GetPatInfo, and GetDeathDetails. And h
   },
   {
     title: "Explain Publishers and Subscribers in Events.",
-    type: 6,
+    type: 9,
     content: `A Publisher is a class responsible for publishing a message of different types of other classes. The message is nothing but Event as discussed in the above questions.
 
 From the Example in Question 32, Class Patient is the Publisher class. It is generating an Event deathEvent, which the other classes receive.
@@ -522,7 +522,7 @@ Subscribers capture the message of the type that it is interested in. Again, fro
   },
   {
     title: "What are Synchronous and Asynchronous operations?",
-    type: 6,
+    type: 9,
     content: `Synchronization is a way to create a thread-safe code where only one thread can access the resource at any given time.
 
 Asynchronous call waits for the method to complete before continuing with the program flow. Synchronous programming badly affects the UI operations, when the user tries to perform time-consuming operations since only one thread will be used.
@@ -533,7 +533,7 @@ In C#, Async and Await keywords are used to achieve asynchronous programming. Lo
   },
   {
     title: "What is Reflection in C#?",
-    type: 6,
+    type: 9,
     content: `Reflection is the ability of code to access the metadata of the assembly during runtime. A program reflects upon itself and uses the metadata to inform the user or modify its behavior. Metadata refers to information about objects, methods.
 
 The namespace System. Reflection contains methods and classes that manage the information of all the loaded types and methods. It is mainly used for windows applications, for Example, to view the properties of a button in a windows form.
@@ -554,7 +554,7 @@ Above statement tries to find a method with name AddNumbers in the class myClass
   },
   {
     title: "What is a Generic Class?",
-    type: 6,
+    type: 9,
     content: `Generics or Generic class is used to create classes or objects which do not have any specific data type. The data type can be assigned during runtime, i.e when it is used in the program.
 
 For Example:
@@ -597,7 +597,7 @@ In case of other data type parameter comparisons, instead of creating many overl
   },
   {
     title: "Explain Get and Set Accessor properties?",
-    type: 6,
+    type: 9,
     content: `Get and Set are called Accessors. These are made use by Properties. A property provides a mechanism to read, write the value of a private field. For accessing that private field, these accessors are used.
 
 Get Property is used to return the value of a property
@@ -642,7 +642,7 @@ The usage of get and set is as below:
   },
   {
     title: "What is a Thread? What is Multithreading?",
-    type: 6,
+    type: 9,
     content: `A Thread is a set of instructions that can be executed, which will enable our program to perform concurrent processing. Concurrent processing helps us do more than one operation at a time. By default, C# has only one thread. But the other threads can be created to execute the code in parallel with the original thread.
 
 Thread has a life cycle. It starts whenever a thread class is created and is terminated after the execution. System.Threading is the namespace which needs to be included to create threads and use its members.
@@ -664,7 +664,7 @@ Most of these methods are self-explanatory.`,
   },
   {
     title: "Name some properties of Thread Class.",
-    type: 6,
+    type: 9,
     content: `Answer: Few Properties of thread class are:
 
 · IsAlive – contains value True when a thread is Active.
@@ -679,7 +679,7 @@ Most of these methods are self-explanatory.`,
   },
   {
     title: "What are the different states of a Thread?",
-    type: 6,
+    type: 9,
     content: `Different states of a thread are:
 
 · Unstarted – Thread is created.
@@ -696,7 +696,7 @@ Most of these methods are self-explanatory.`,
   },
   {
     title: "What are Async and Await?",
-    type: 6,
+    type: 9,
     content: `Async and Await keywords are used to create asynchronous methods in C.
 
 Asynchronous programming means that the process runs independently of main or other processes.
@@ -731,7 +731,7 @@ Usage of Async and Await is as shown below:
   },
   {
     title: "What is a Deadlock?",
-    type: 6,
+    type: 9,
     content: `A Deadlock is a situation where a process is not able to complete its execution because two or more processes are waiting for each other to finish. This usually occurs in multi-threading.
 
 Here a Shared resource is being held by a process and another process is waiting for the first process to release it and the thread holding the locked item is waiting for another process to complete.
@@ -790,7 +790,7 @@ This creates Deadlock.`,
   },
   {
     title: "Explain Lock, Monitors, and Mutex Object in Threading.",
-    type: 6,
+    type: 9,
     content: `Lock keyword ensures that only one thread can enter a particular section of the code at any given time. In the above Example, lock(ObjA) means the lock is placed on ObjA until this process releases it, no other thread can access ObjA.
 
 A Mutex is also like a lock but it can work across multiple processes at a time. WaitOne() is used to lock and ReleaseMutex() is used to release the lock. But Mutex is slower than lock as it takes time to acquire and release it.
@@ -805,14 +805,14 @@ Monitor.Enter and Monitor.Exit implements lock internally. a lock is a shortcut 
   },
   {
     title: "What is a Race Condition?",
-    type: 6,
+    type: 9,
     content: `A Race condition occurs when two threads access the same resource and are trying to change it at the same time. The thread which will be able to access the resource first cannot be predicted.
 
 If we have two threads, T1 and T2, and they are trying to access a shared resource called X. And if both the threads try to write a value to X, the last value written to X will be saved.`,
   },
   {
     title: "What is Thread Pooling?",
-    type: 6,
+    type: 9,
     content: `A Thread pool is a collection of threads. These threads can be used to perform tasks without disturbing the primary thread. Once the thread completes the task, the thread returns to the pool.
 
 System.Threading.ThreadPool namespace has classes that manage the threads in the pool and its operations.
@@ -823,7 +823,7 @@ The above line queues a task. SomeTask methods should have a parameter of type O
   },
   {
     title: "What is Serialization?",
-    type: 6,
+    type: 9,
     content: `Serialization is a process of converting code to its binary format. Once it is converted to bytes, it can be easily stored and written to a disk or any such storage devices. Serializations are mainly useful when we do not want to lose the original form of the code and it can be retrieved anytime in the future.
 
 Any class which is marked with the attribute [Serializable] will be converted to its binary form.
@@ -834,7 +834,7 @@ To Serialize an object we need the object to be serialized, a stream that can co
   },
   {
     title: "What are the types of Serialization?",
-    type: 6,
+    type: 9,
     content: `The different types of Serialization are: XML serialization, SOAP, and Binary.
 
 · XML serialization – It serializes all the public properties to the XML document. Since the data is in XML format, it can be easily read and manipulated in various formats. The classes reside in System.sml.Serialization.
@@ -845,14 +845,14 @@ To Serialize an object we need the object to be serialized, a stream that can co
   },
   {
     title: "What is an XSD file?",
-    type: 6,
+    type: 9,
     content: `An XSD file stands for XML Schema Definition. It gives a structure for the XML file. It means it decides the elements that the XML should have and in what order and what properties should be present. Without an XSD file associated with XML, the XML can have any tags, any attributes, and any elements.
 
 Xsd.exe tool converts the files to XSD format. During Serialization of C# code, the classes are converted to XSD compliant format by xsd.exe.`,
   },
   {
     title: "Yield Statement",
-    type: 6,
+    type: 9,
     content: `The yield keyword signals to the compiler that the method in which it appears is an iterator block. The compiler generates a class to implement the behavior that is expressed in the iterator block. In the iterator block, the yield keyword is used together with the return keyword to provide a value to the enumerator object. This is the value that is returned, for example, in each loop of a foreach statement. The yield keyword is also used with break to signal the end of iteration.
 
 To use "yield return", you just need to create a method with a return type that is an IEnumerable (arrays and collections in. Net implements IEnumerable interface) with a loop and use "yield return" to return a value to set in the loop body.
@@ -875,7 +875,7 @@ There are several restrictions on where a yield statement can appear, as describ
   },
   {
     title: "What is C#?",
-    type: 6,
+    type: 9,
     content: `C# is a simple, modern, general purpose programming language. It is an object oriented programming language developed by Microsoft. It is a safe and managed language that is compiled by .NET framework to generate Microsoft intermediate language (machine code).`,
   },
 ];
