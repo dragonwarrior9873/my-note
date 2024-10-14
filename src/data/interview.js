@@ -9,6 +9,7 @@ export const types = [
   "React",
   "Go Blockchain",
   "C#",
+  "PythonAI",
 ];
 
 export const interview = [

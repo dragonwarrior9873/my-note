@@ -118,7 +118,7 @@ const Home = () => {
               ]
                 .sort((a, b) => a < b)
                 .filter((d) => {
-                  const keywords = keyword.split(" ");
+                  const keywords = keyword.toLowerCase().split(" ");
                   if (withContent) {
                     return keywords.every((key) => {
                       return (

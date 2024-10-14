@@ -297,7 +297,7 @@ Length gets the number of objects in the current String.`,
     title:
       "What is an Escape Sequence? Name some String escape sequences in C#.",
     type: 9,
-    content: `An Escape sequence is denoted by a backslash (\). The backslash indicates that the character that follows it should be interpreted literally or it is a special character. An escape sequence is considered as a single character.
+    content: `An Escape sequence is denoted by a backslash (\\). The backslash indicates that the character that follows it should be interpreted literally or it is a special character. An escape sequence is considered as a single character.
 
 String escape sequences are as follows:
 
