@@ -8,6 +8,7 @@ import FocusLock from "react-focus-lock";
 
 import { types, interview } from "../data/interview";
 import { react } from "../data/react";
+import { pythonAI } from "../data/pythonAI";
 import { go_blockchain } from "../data/go_blockchain";
 import { javascript } from "../data/javascript";
 import { chris_react } from "../data/Chris_React";
@@ -111,6 +112,7 @@ const Home = () => {
                 ...javascript,
                 ...Cosmos,
                 ...react,
+                ...pythonAI,
                 ...go_blockchain,
                 ...CSharp,
               ]
